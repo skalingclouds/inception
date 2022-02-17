@@ -1,0 +1,3587 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220217121359
+Username: ZENBOX\chris
+RunAs User: ZENBOX\chris
+Configuration Name: 
+Machine: ZENBOX (Microsoft Windows NT 10.0.22000.0)
+Host Application: powershell -ExecutionPolicy ByPass -File c:\Users\chris\Desktop\inception\inception\bootstrap11dev.ps1
+Process ID: 22740
+PSVersion: 5.1.22000.282
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22000.282
+BuildVersion: 10.0.22000.282
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\chris\Desktop\inception\inception\bootstrap11dev.log
+
+
+    Directory: C:\Users\chris\Desktop\inception\inception
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         2/17/2022  12:13 PM            734 bootstrap11dev.log
+-a----         2/17/2022  12:13 PM            213 bootstrap11dev.ps1
+-a----         2/17/2022  11:57 AM             11 README.md
+
+Status      : Running
+Name        : AarSvc_b1ebc
+DisplayName : Agent Activation Runtime_b1ebc
+
+
+Status      : Stopped
+Name        : AJRouter
+DisplayName : AllJoyn Router Service
+
+
+Status      : Stopped
+Name        : ALG
+DisplayName : Application Layer Gateway Service
+
+
+Status      : Stopped
+Name        : AppIDSvc
+DisplayName : Application Identity
+
+
+Status      : Running
+Name        : Appinfo
+DisplayName : Application Information
+
+
+Status      : Stopped
+Name        : AppMgmt
+DisplayName : Application Management
+
+
+Status      : Stopped
+Name        : AppReadiness
+DisplayName : App Readiness
+
+
+Status      : Stopped
+Name        : AppVClient
+DisplayName : Microsoft App-V Client
+
+
+Status      : Stopped
+Name        : AppXSvc
+DisplayName : AppX Deployment Service (AppXSVC)
+
+
+Status      : Stopped
+Name        : Aqua Computer Service
+DisplayName : Aqua Computer Service
+
+
+Status      : Running
+Name        : asComSvc
+DisplayName : ASUS Com Service
+
+
+Status      : Stopped
+Name        : AssignedAccessManagerSvc
+DisplayName : AssignedAccessManager Service
+
+
+Status      : Running
+Name        : AsSysCtrlService
+DisplayName : ASUS System Control Service
+
+
+Status      : Running
+Name        : AsusCertService
+DisplayName : AsusCertService
+
+
+Status      : Running
+Name        : AsusFanControlService
+DisplayName : AsusFanControlService
+
+
+Status      : Stopped
+Name        : AsusUpdateCheck
+DisplayName : AsusUpdateCheck
+
+
+Status      : Running
+Name        : AudioEndpointBuilder
+DisplayName : Windows Audio Endpoint Builder
+
+
+Status      : Running
+Name        : Audiosrv
+DisplayName : Windows Audio
+
+
+Status      : Stopped
+Name        : autotimesvc
+DisplayName : Cellular Time
+
+
+Status      : Stopped
+Name        : AxInstSV
+DisplayName : ActiveX Installer (AxInstSV)
+
+
+Status      : Stopped
+Name        : BcastDVRUserService_b1ebc
+DisplayName : GameDVR and Broadcast User Service_b1ebc
+
+
+Status      : Stopped
+Name        : BDESVC
+DisplayName : BitLocker Drive Encryption Service
+
+
+Status      : Stopped
+Name        : BEService
+DisplayName : BattlEye Service
+
+
+Status      : Running
+Name        : BFE
+DisplayName : Base Filtering Engine
+
+
+Status      : Stopped
+Name        : BITS
+DisplayName : Background Intelligent Transfer Service
+
+
+Status      : Running
+Name        : BluetoothUserService_b1ebc
+DisplayName : Bluetooth User Support Service_b1ebc
+
+
+Status      : Running
+Name        : BrokerInfrastructure
+DisplayName : Background Tasks Infrastructure Service
+
+
+Status      : Running
+Name        : BTAGService
+DisplayName : Bluetooth Audio Gateway Service
+
+
+Status      : Running
+Name        : BthAvctpSvc
+DisplayName : AVCTP service
+
+
+Status      : Running
+Name        : bthserv
+DisplayName : Bluetooth Support Service
+
+
+Status      : Running
+Name        : camsvc
+DisplayName : Capability Access Manager Service
+
+
+Status      : Stopped
+Name        : CaptureService_b1ebc
+DisplayName : CaptureService_b1ebc
+
+
+Status      : Running
+Name        : cbdhsvc_b1ebc
+DisplayName : Clipboard User Service_b1ebc
+
+
+Status      : Running
+Name        : CDPSvc
+DisplayName : Connected Devices Platform Service
+
+
+Status      : Running
+Name        : CDPUserSvc_b1ebc
+DisplayName : Connected Devices Platform User Service_b1ebc
+
+
+Status      : Running
+Name        : CertPropSvc
+DisplayName : Certificate Propagation
+
+
+Status      : Running
+Name        : ClickToRunSvc
+DisplayName : Microsoft Office Click-to-Run Service
+
+
+Status      : Stopped
+Name        : CLink4Service
+DisplayName : Corsair LINK 4
+
+
+Status      : Stopped
+Name        : ClipSVC
+DisplayName : Client License Service (ClipSVC)
+
+
+Status      : Stopped
+Name        : cloudidsvc
+DisplayName : Microsoft Cloud Identity Service
+
+
+Status      : Stopped
+Name        : COMSysApp
+DisplayName : COM+ System Application
+
+
+Status      : Stopped
+Name        : ConsentUxUserSvc_b1ebc
+DisplayName : ConsentUX User Service_b1ebc
+
+
+Status      : Running
+Name        : CoreMessagingRegistrar
+DisplayName : CoreMessaging
+
+
+Status      : Stopped
+Name        : CredentialEnrollmentManagerUserSvc_b1ebc
+DisplayName : CredentialEnrollmentManagerUserSvc_b1ebc
+
+
+Status      : Running
+Name        : CryptSvc
+DisplayName : Cryptographic Services
+
+
+Status      : Stopped
+Name        : CscService
+DisplayName : Offline Files
+
+
+Status      : Running
+Name        : DcomLaunch
+DisplayName : DCOM Server Process Launcher
+
+
+Status      : Stopped
+Name        : DEFRAGSVC
+DisplayName : Optimize drives
+
+
+Status      : Stopped
+Name        : DeviceAssociationBrokerSvc_b1ebc
+DisplayName : DeviceAssociationBroker_b1ebc
+
+
+Status      : Running
+Name        : DeviceAssociationService
+DisplayName : Device Association Service
+
+
+Status      : Running
+Name        : DeviceInstall
+DisplayName : Device Install Service
+
+
+Status      : Stopped
+Name        : DevicePickerUserSvc_b1ebc
+DisplayName : DevicePicker_b1ebc
+
+
+Status      : Stopped
+Name        : DevicesFlowUserSvc_b1ebc
+DisplayName : DevicesFlow_b1ebc
+
+
+Status      : Stopped
+Name        : DevQueryBroker
+DisplayName : DevQuery Background Discovery Broker
+
+
+Status      : Running
+Name        : Dhcp
+DisplayName : DHCP Client
+
+
+Status      : Stopped
+Name        : diagnosticshub.standardcollector.service
+DisplayName : Microsoft (R) Diagnostics Hub Standard Collector Service
+
+
+Status      : Stopped
+Name        : diagsvc
+DisplayName : Diagnostic Execution Service
+
+
+Status      : Running
+Name        : DiagTrack
+DisplayName : Connected User Experiences and Telemetry
+
+
+Status      : Stopped
+Name        : DialogBlockingService
+DisplayName : DialogBlockingService
+
+
+Status      : Running
+Name        : DispBrokerDesktopSvc
+DisplayName : Display Policy Service
+
+
+Status      : Running
+Name        : DisplayEnhancementService
+DisplayName : Display Enhancement Service
+
+
+Status      : Stopped
+Name        : DmEnrollmentSvc
+DisplayName : Device Management Enrollment Service
+
+
+Status      : Stopped
+Name        : dmwappushservice
+DisplayName : Device Management Wireless Application Protocol (WAP) Push message Routing Service
+
+
+Status      : Running
+Name        : Dnscache
+DisplayName : DNS Client
+
+
+Status      : Running
+Name        : DoSvc
+DisplayName : Delivery Optimization
+
+
+Status      : Stopped
+Name        : dot3svc
+DisplayName : Wired AutoConfig
+
+
+Status      : Running
+Name        : DPS
+DisplayName : Diagnostic Policy Service
+
+
+Status      : Stopped
+Name        : DsmSvc
+DisplayName : Device Setup Manager
+
+
+Status      : Stopped
+Name        : DsSvc
+DisplayName : Data Sharing Service
+
+
+Status      : Running
+Name        : DusmSvc
+DisplayName : Data Usage
+
+
+Status      : Stopped
+Name        : EapHost
+DisplayName : Extensible Authentication Protocol
+
+
+Status      : Stopped
+Name        : edgeupdate
+DisplayName : Microsoft Edge Update Service (edgeupdate)
+
+
+Status      : Stopped
+Name        : edgeupdatem
+DisplayName : Microsoft Edge Update Service (edgeupdatem)
+
+
+Status      : Stopped
+Name        : EFS
+DisplayName : Encrypting File System (EFS)
+
+
+Status      : Stopped
+Name        : embeddedmode
+DisplayName : Embedded Mode
+
+
+Status      : Stopped
+Name        : EntAppSvc
+DisplayName : Enterprise App Management Service
+
+
+Status      : Stopped
+Name        : EpicOnlineServices
+DisplayName : Epic Online Services
+
+
+Status      : Running
+Name        : EventLog
+DisplayName : Windows Event Log
+
+
+Status      : Running
+Name        : EventSystem
+DisplayName : COM+ Event System
+
+
+Status      : Running
+Name        : Everything
+DisplayName : Everything
+
+
+Status      : Running
+Name        : fdPHost
+DisplayName : Function Discovery Provider Host
+
+
+Status      : Running
+Name        : FDResPub
+DisplayName : Function Discovery Resource Publication
+
+
+Status      : Stopped
+Name        : fhsvc
+DisplayName : File History Service
+
+
+Status      : Stopped
+Name        : FileSyncHelper
+DisplayName : FileSyncHelper
+
+
+Status      : Running
+Name        : FontCache
+DisplayName : Windows Font Cache Service
+
+
+Status      : Stopped
+Name        : FontCache3.0.0.0
+DisplayName : Windows Presentation Foundation Font Cache 3.0.0.0
+
+
+Status      : Stopped
+Name        : FrameServer
+DisplayName : Windows Camera Frame Server
+
+
+Status      : Stopped
+Name        : FrameServerMonitor
+DisplayName : Windows Camera Frame Server Monitor
+
+
+Status      : Stopped
+Name        : FvSvc
+DisplayName : NVIDIA FrameView SDK service
+
+
+Status      : Running
+Name        : GamingServices
+DisplayName : Gaming Services
+
+
+Status      : Running
+Name        : GamingServicesNet
+DisplayName : Gaming Services
+
+
+Status      : Stopped
+Name        : gpsvc
+DisplayName : Group Policy Client
+
+
+Status      : Stopped
+Name        : GraphicsPerfSvc
+DisplayName : GraphicsPerfSvc
+
+
+Status      : Running
+Name        : hidserv
+DisplayName : Human Interface Device Service
+
+
+Status      : Stopped
+Name        : HvHost
+DisplayName : HV Host Service
+
+
+Status      : Stopped
+Name        : icssvc
+DisplayName : Windows Mobile Hotspot Service
+
+
+Status      : Running
+Name        : IKEEXT
+DisplayName : IKE and AuthIP IPsec Keying Modules
+
+
+Status      : Running
+Name        : InstallService
+DisplayName : Microsoft Store Install Service
+
+
+Status      : Running
+Name        : iphlpsvc
+DisplayName : IP Helper
+
+
+Status      : Stopped
+Name        : IpxlatCfgSvc
+DisplayName : IP Translation Configuration Service
+
+
+Status      : Running
+Name        : KeyIso
+DisplayName : CNG Key Isolation
+
+
+Status      : Stopped
+Name        : KtmRm
+DisplayName : KtmRm for Distributed Transaction Coordinator
+
+
+Status      : Running
+Name        : LanmanServer
+DisplayName : Server
+
+
+Status      : Running
+Name        : LanmanWorkstation
+DisplayName : Workstation
+
+
+Status      : Running
+Name        : lfsvc
+DisplayName : Geolocation Service
+
+
+Status      : Running
+Name        : LicenseManager
+DisplayName : Windows License Manager Service
+
+
+Status      : Stopped
+Name        : lltdsvc
+DisplayName : Link-Layer Topology Discovery Mapper
+
+
+Status      : Running
+Name        : lmhosts
+DisplayName : TCP/IP NetBIOS Helper
+
+
+Status      : Running
+Name        : LSM
+DisplayName : Local Session Manager
+
+
+Status      : Stopped
+Name        : LxpSvc
+DisplayName : Language Experience Service
+
+
+Status      : Stopped
+Name        : MacriumService
+DisplayName : Macrium Service
+
+
+Status      : Stopped
+Name        : MapsBroker
+DisplayName : Downloaded Maps Manager
+
+
+Status      : Stopped
+Name        : McpManagementService
+DisplayName : McpManagementService
+
+
+Status      : Stopped
+Name        : MessagingService_b1ebc
+DisplayName : MessagingService_b1ebc
+
+
+Status      : Stopped
+Name        : MicrosoftEdgeElevationService
+DisplayName : Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)
+
+
+Status      : Stopped
+Name        : MixedRealityOpenXRSvc
+DisplayName : Windows Mixed Reality OpenXR Service
+
+
+Status      : Running
+Name        : mpssvc
+DisplayName : Windows Defender Firewall
+
+
+Status      : Stopped
+Name        : MSDTC
+DisplayName : Distributed Transaction Coordinator
+
+
+Status      : Stopped
+Name        : MSiSCSI
+DisplayName : Microsoft iSCSI Initiator Service
+
+
+Status      : Stopped
+Name        : msiserver
+DisplayName : Windows Installer
+
+
+Status      : Stopped
+Name        : MsKeyboardFilter
+DisplayName : Microsoft Keyboard Filter
+
+
+Status      : Running
+Name        : NahimicService
+DisplayName : Nahimic service
+
+
+Status      : Stopped
+Name        : NaturalAuthentication
+DisplayName : Natural Authentication
+
+
+Status      : Stopped
+Name        : NcaSvc
+DisplayName : Network Connectivity Assistant
+
+
+Status      : Running
+Name        : NcbService
+DisplayName : Network Connection Broker
+
+
+Status      : Running
+Name        : NcdAutoSetup
+DisplayName : Network Connected Devices Auto-Setup
+
+
+Status      : Stopped
+Name        : Netlogon
+DisplayName : Netlogon
+
+
+Status      : Stopped
+Name        : Netman
+DisplayName : Network Connections
+
+
+Status      : Running
+Name        : netprofm
+DisplayName : Network List Service
+
+
+Status      : Stopped
+Name        : NetSetupSvc
+DisplayName : Network Setup Service
+
+
+Status      : Stopped
+Name        : NetTcpPortSharing
+DisplayName : Net.Tcp Port Sharing Service
+
+
+Status      : Stopped
+Name        : NgcCtnrSvc
+DisplayName : Microsoft Passport Container
+
+
+Status      : Stopped
+Name        : NgcSvc
+DisplayName : Microsoft Passport
+
+
+Status      : Stopped
+Name        : NlaSvc
+DisplayName : Network Location Awareness
+
+
+Status      : Running
+Name        : NPSMSvc_b1ebc
+DisplayName : NPSMSvc_b1ebc
+
+
+Status      : Running
+Name        : nsi
+DisplayName : Network Store Interface Service
+
+
+Status      : Running
+Name        : NvContainerLocalSystem
+DisplayName : NVIDIA LocalSystem Container
+
+
+Status      : Running
+Name        : NVDisplay.ContainerLocalSystem
+DisplayName : NVIDIA Display Container LS
+
+
+Status      : Stopped
+Name        : OneDrive Updater Service
+DisplayName : OneDrive Updater Service
+
+
+Status      : Running
+Name        : OneSyncSvc_b1ebc
+DisplayName : Sync Host_b1ebc
+
+
+Status      : Stopped
+Name        : p2pimsvc
+DisplayName : Peer Networking Identity Manager
+
+
+Status      : Stopped
+Name        : p2psvc
+DisplayName : Peer Networking Grouping
+
+
+Status      : Stopped
+Name        : P9RdrService_b1ebc
+DisplayName : P9RdrService_b1ebc
+
+
+Status      : Stopped
+Name        : PcaSvc
+DisplayName : Program Compatibility Assistant Service
+
+
+Status      : Stopped
+Name        : PeerDistSvc
+DisplayName : BranchCache
+
+
+Status      : Stopped
+Name        : PenService_b1ebc
+DisplayName : PenService_b1ebc
+
+
+Status      : Stopped
+Name        : perceptionsimulation
+DisplayName : Windows Perception Simulation Service
+
+
+Status      : Stopped
+Name        : PerfHost
+DisplayName : Performance Counter DLL Host
+
+
+Status      : Stopped
+Name        : PhoneSvc
+DisplayName : Phone Service
+
+
+Status      : Running
+Name        : PimIndexMaintenanceSvc_b1ebc
+DisplayName : Contact Data_b1ebc
+
+
+Status      : Stopped
+Name        : pla
+DisplayName : Performance Logs & Alerts
+
+
+Status      : Running
+Name        : PlugPlay
+DisplayName : Plug and Play
+
+
+Status      : Stopped
+Name        : PNRPAutoReg
+DisplayName : PNRP Machine Name Publication Service
+
+
+Status      : Stopped
+Name        : PNRPsvc
+DisplayName : Peer Name Resolution Protocol
+
+
+Status      : Running
+Name        : PolicyAgent
+DisplayName : IPsec Policy Agent
+
+
+Status      : Running
+Name        : Power
+DisplayName : Power
+
+
+Status      : Running
+Name        : PpmpService
+DisplayName : PPMP Service
+
+
+Status      : Stopped
+Name        : PrintNotify
+DisplayName : Printer Extensions and Notifications
+
+
+Status      : Stopped
+Name        : PrintWorkflowUserSvc_b1ebc
+DisplayName : PrintWorkflow_b1ebc
+
+
+Status      : Running
+Name        : ProfSvc
+DisplayName : User Profile Service
+
+
+Status      : Stopped
+Name        : PushToInstall
+DisplayName : Windows PushToInstall Service
+
+
+Status      : Running
+Name        : QWAVE
+DisplayName : Quality Windows Audio Video Experience
+
+
+Status      : Stopped
+Name        : RasAuto
+DisplayName : Remote Access Auto Connection Manager
+
+
+Status      : Stopped
+Name        : RasMan
+DisplayName : Remote Access Connection Manager
+
+
+Status      : Stopped
+Name        : ReimageRealTimeProtector
+DisplayName : Reimage Real Time Protector
+
+
+Status      : Stopped
+Name        : RemoteAccess
+DisplayName : Routing and Remote Access
+
+
+Status      : Stopped
+Name        : RemoteRegistry
+DisplayName : Remote Registry
+
+
+Status      : Stopped
+Name        : RetailDemo
+DisplayName : Retail Demo Service
+
+
+Status      : Running
+Name        : RmSvc
+DisplayName : Radio Management Service
+
+
+Status      : Running
+Name        : RpcEptMapper
+DisplayName : RPC Endpoint Mapper
+
+
+Status      : Stopped
+Name        : RpcLocator
+DisplayName : Remote Procedure Call (RPC) Locator
+
+
+Status      : Running
+Name        : RpcSs
+DisplayName : Remote Procedure Call (RPC)
+
+
+Status      : Running
+Name        : RtkAudioUniversalService
+DisplayName : Realtek Audio Universal Service
+
+
+Status      : Running
+Name        : SamSs
+DisplayName : Security Accounts Manager
+
+
+Status      : Stopped
+Name        : SCardSvr
+DisplayName : Smart Card
+
+
+Status      : Stopped
+Name        : ScDeviceEnum
+DisplayName : Smart Card Device Enumeration Service
+
+
+Status      : Running
+Name        : Schedule
+DisplayName : Task Scheduler
+
+
+Status      : Stopped
+Name        : SCPolicySvc
+DisplayName : Smart Card Removal Policy
+
+
+Status      : Stopped
+Name        : SDRSVC
+DisplayName : Windows Backup
+
+
+Status      : Stopped
+Name        : seclogon
+DisplayName : Secondary Logon
+
+
+Status      : Running
+Name        : SecurityHealthService
+DisplayName : Windows Security Service
+
+
+Status      : Stopped
+Name        : SEMgrSvc
+DisplayName : Payments and NFC/SE Manager
+
+
+Status      : Running
+Name        : SENS
+DisplayName : System Event Notification Service
+
+
+Status      : Stopped
+Name        : Sense
+DisplayName : Windows Defender Advanced Threat Protection Service
+
+
+Status      : Stopped
+Name        : SensorDataService
+DisplayName : Sensor Data Service
+
+
+Status      : Stopped
+Name        : SensorService
+DisplayName : Sensor Service
+
+
+Status      : Stopped
+Name        : SensrSvc
+DisplayName : Sensor Monitoring Service
+
+
+Status      : Running
+Name        : SessionEnv
+DisplayName : Remote Desktop Configuration
+
+
+Status      : Running
+Name        : SgrmBroker
+DisplayName : System Guard Runtime Monitor Broker
+
+
+Status      : Stopped
+Name        : SharedAccess
+DisplayName : Internet Connection Sharing (ICS)
+
+
+Status      : Stopped
+Name        : SharedRealitySvc
+DisplayName : Spatial Data Service
+
+
+Status      : Running
+Name        : ShellHWDetection
+DisplayName : Shell Hardware Detection
+
+
+Status      : Stopped
+Name        : shpamsvc
+DisplayName : Shared PC Account Manager
+
+
+Status      : Stopped
+Name        : smphost
+DisplayName : Microsoft Storage Spaces SMP
+
+
+Status      : Stopped
+Name        : SmsRouter
+DisplayName : Microsoft Windows SMS Router Service.
+
+
+Status      : Stopped
+Name        : SNMPTrap
+DisplayName : SNMP Trap
+
+
+Status      : Stopped
+Name        : spectrum
+DisplayName : Windows Perception Service
+
+
+Status      : Running
+Name        : Spooler
+DisplayName : Print Spooler
+
+
+Status      : Stopped
+Name        : sppsvc
+DisplayName : Software Protection
+
+
+Status      : Running
+Name        : SSDPSRV
+DisplayName : SSDP Discovery
+
+
+Status      : Stopped
+Name        : ssh-agent
+DisplayName : OpenSSH Authentication Agent
+
+
+Status      : Stopped
+Name        : SstpSvc
+DisplayName : Secure Socket Tunneling Protocol Service
+
+
+Status      : Running
+Name        : StateRepository
+DisplayName : State Repository Service
+
+
+Status      : Running
+Name        : Steam Client Service
+DisplayName : Steam Client Service
+
+
+Status      : Running
+Name        : StiSvc
+DisplayName : Windows Image Acquisition (WIA)
+
+
+Status      : Running
+Name        : StorSvc
+DisplayName : Storage Service
+
+
+Status      : Stopped
+Name        : svsvc
+DisplayName : Spot Verifier
+
+
+Status      : Stopped
+Name        : swprv
+DisplayName : Microsoft Software Shadow Copy Provider
+
+
+Status      : Stopped
+Name        : SysMain
+DisplayName : SysMain
+
+
+Status      : Running
+Name        : SystemEventsBroker
+DisplayName : System Events Broker
+
+
+Status      : Running
+Name        : TabletInputService
+DisplayName : Touch Keyboard and Handwriting Panel Service
+
+
+Status      : Stopped
+Name        : TapiSrv
+DisplayName : Telephony
+
+
+Status      : Running
+Name        : TbtHostControllerService
+DisplayName : Thunderbolt(TM) Application Launcher
+
+
+Status      : Running
+Name        : TbtP2pShortcutService
+DisplayName : Thunderbolt(TM) Peer to Peer Shortcut
+
+
+Status      : Running
+Name        : TermService
+DisplayName : Remote Desktop Services
+
+
+Status      : Running
+Name        : Themes
+DisplayName : Themes
+
+
+Status      : Stopped
+Name        : TieringEngineService
+DisplayName : Storage Tiers Management
+
+
+Status      : Running
+Name        : TimeBrokerSvc
+DisplayName : Time Broker
+
+
+Status      : Running
+Name        : TokenBroker
+DisplayName : Web Account Manager
+
+
+Status      : Running
+Name        : TrkWks
+DisplayName : Distributed Link Tracking Client
+
+
+Status      : Stopped
+Name        : TroubleshootingSvc
+DisplayName : Recommended Troubleshooting Service
+
+
+Status      : Running
+Name        : TrustedInstaller
+DisplayName : Windows Modules Installer
+
+
+Status      : Stopped
+Name        : tzautoupdate
+DisplayName : Auto Time Zone Updater
+
+
+Status      : Running
+Name        : UdkUserSvc_b1ebc
+DisplayName : Udk User Service_b1ebc
+
+
+Status      : Stopped
+Name        : UevAgentService
+DisplayName : User Experience Virtualization Service
+
+
+Status      : Stopped
+Name        : uhssvc
+DisplayName : Microsoft Update Health Service
+
+
+Status      : Running
+Name        : UmRdpService
+DisplayName : Remote Desktop Services UserMode Port Redirector
+
+
+Status      : Running
+Name        : UnistoreSvc_b1ebc
+DisplayName : User Data Storage_b1ebc
+
+
+Status      : Stopped
+Name        : upnphost
+DisplayName : UPnP Device Host
+
+
+Status      : Running
+Name        : UserDataSvc_b1ebc
+DisplayName : User Data Access_b1ebc
+
+
+Status      : Running
+Name        : UserManager
+DisplayName : User Manager
+
+
+Status      : Running
+Name        : UsoSvc
+DisplayName : Update Orchestrator Service
+
+
+Status      : Stopped
+Name        : VacSvc
+DisplayName : Volumetric Audio Compositor Service
+
+
+Status      : Running
+Name        : VaultSvc
+DisplayName : Credential Manager
+
+
+Status      : Running
+Name        : vds
+DisplayName : Virtual Disk
+
+
+Status      : Stopped
+Name        : vmicguestinterface
+DisplayName : Hyper-V Guest Service Interface
+
+
+Status      : Stopped
+Name        : vmicheartbeat
+DisplayName : Hyper-V Heartbeat Service
+
+
+Status      : Stopped
+Name        : vmickvpexchange
+DisplayName : Hyper-V Data Exchange Service
+
+
+Status      : Stopped
+Name        : vmicrdv
+DisplayName : Hyper-V Remote Desktop Virtualization Service
+
+
+Status      : Stopped
+Name        : vmicshutdown
+DisplayName : Hyper-V Guest Shutdown Service
+
+
+Status      : Stopped
+Name        : vmictimesync
+DisplayName : Hyper-V Time Synchronization Service
+
+
+Status      : Stopped
+Name        : vmicvmsession
+DisplayName : Hyper-V PowerShell Direct Service
+
+
+Status      : Stopped
+Name        : vmicvss
+DisplayName : Hyper-V Volume Shadow Copy Requestor
+
+
+Status      : Stopped
+Name        : VSS
+DisplayName : Volume Shadow Copy
+
+
+Status      : Stopped
+Name        : W32Time
+DisplayName : Windows Time
+
+
+Status      : Stopped
+Name        : WaaSMedicSvc
+DisplayName : Windows Update Medic Service
+
+
+Status      : Stopped
+Name        : WalletService
+DisplayName : WalletService
+
+
+Status      : Stopped
+Name        : WarpJITSvc
+DisplayName : Warp JIT Service
+
+
+Status      : Stopped
+Name        : wbengine
+DisplayName : Block Level Backup Engine Service
+
+
+Status      : Stopped
+Name        : WbioSrvc
+DisplayName : Windows Biometric Service
+
+
+Status      : Running
+Name        : Wcmsvc
+DisplayName : Windows Connection Manager
+
+
+Status      : Stopped
+Name        : wcncsvc
+DisplayName : Windows Connect Now - Config Registrar
+
+
+Status      : Stopped
+Name        : WdiServiceHost
+DisplayName : Diagnostic Service Host
+
+
+Status      : Stopped
+Name        : WdiSystemHost
+DisplayName : Diagnostic System Host
+
+
+Status      : Stopped
+Name        : WdNisSvc
+DisplayName : Microsoft Defender Antivirus Network Inspection Service
+
+
+Status      : Stopped
+Name        : WebClient
+DisplayName : WebClient
+
+
+Status      : Stopped
+Name        : Wecsvc
+DisplayName : Windows Event Collector
+
+
+Status      : Stopped
+Name        : WEPHOSTSVC
+DisplayName : Windows Encryption Provider Host Service
+
+
+Status      : Stopped
+Name        : wercplsupport
+DisplayName : Problem Reports Control Panel Support
+
+
+Status      : Stopped
+Name        : WerSvc
+DisplayName : Windows Error Reporting Service
+
+
+Status      : Stopped
+Name        : WFDSConMgrSvc
+DisplayName : Wi-Fi Direct Services Connection Manager Service
+
+
+Status      : Stopped
+Name        : WiaRpc
+DisplayName : Still Image Acquisition Events
+
+
+Status      : Stopped
+Name        : WinDefend
+DisplayName : Microsoft Defender Antivirus Service
+
+
+Status      : Running
+Name        : WinHttpAutoProxySvc
+DisplayName : WinHTTP Web Proxy Auto-Discovery Service
+
+
+Status      : Running
+Name        : Winmgmt
+DisplayName : Windows Management Instrumentation
+
+
+Status      : Stopped
+Name        : WinRM
+DisplayName : Windows Remote Management (WS-Management)
+
+
+Status      : Stopped
+Name        : wisvc
+DisplayName : Windows Insider Service
+
+
+Status      : Running
+Name        : WlanSvc
+DisplayName : WLAN AutoConfig
+
+
+Status      : Stopped
+Name        : wlidsvc
+DisplayName : Microsoft Account Sign-in Assistant
+
+
+Status      : Stopped
+Name        : wlpasvc
+DisplayName : Local Profile Assistant Service
+
+
+Status      : Stopped
+Name        : WManSvc
+DisplayName : Windows Management Service
+
+
+Status      : Stopped
+Name        : wmiApSrv
+DisplayName : WMI Performance Adapter
+
+
+Status      : Stopped
+Name        : WMPNetworkSvc
+DisplayName : Windows Media Player Network Sharing Service
+
+
+Status      : Stopped
+Name        : WpcMonSvc
+DisplayName : Parental Controls
+
+
+Status      : Stopped
+Name        : WPDBusEnum
+DisplayName : Portable Device Enumerator Service
+
+
+Status      : Running
+Name        : WpnService
+DisplayName : Windows Push Notifications System Service
+
+
+Status      : Running
+Name        : WpnUserService_b1ebc
+DisplayName : Windows Push Notifications User Service_b1ebc
+
+
+Status      : Running
+Name        : wscsvc
+DisplayName : Security Center
+
+
+Status      : Running
+Name        : WSearch
+DisplayName : Windows Search
+
+
+Status      : Stopped
+Name        : wuauserv
+DisplayName : Windows Update
+
+
+Status      : Stopped
+Name        : WwanSvc
+DisplayName : WWAN AutoConfig
+
+
+Status      : Stopped
+Name        : XblAuthManager
+DisplayName : Xbox Live Auth Manager
+
+
+Status      : Stopped
+Name        : XblGameSave
+DisplayName : Xbox Live Game Save
+
+
+Status      : Stopped
+Name        : XboxGipSvc
+DisplayName : Xbox Accessory Management Service
+
+
+Status      : Stopped
+Name        : XboxNetApiSvc
+DisplayName : Xbox Live Networking Service
+
+
+Id      : 6512
+Handles : 88
+CPU     :
+SI      : 0
+Name    : AggregatorHost
+
+
+Id      : 9104
+Handles : 492
+CPU     : 0.453125
+SI      : 1
+Name    : ApplicationFrameHost
+
+
+Id      : 5380
+Handles : 128
+CPU     :
+SI      : 0
+Name    : AsSysCtrlService
+
+
+Id      : 2344
+Handles : 194
+CPU     :
+SI      : 0
+Name    : AsusCertService
+
+
+Id      : 5424
+Handles : 242
+CPU     :
+SI      : 0
+Name    : AsusFanControlService
+
+
+Id      : 18492
+Handles : 1512
+CPU     : 0.5625
+SI      : 1
+Name    : asusns
+
+
+Id      : 3348
+Handles : 179
+CPU     :
+SI      : 0
+Name    : atkexComSvc
+
+
+Id      : 8836
+Handles : 907
+CPU     : 317.8125
+SI      : 0
+Name    : audiodg
+
+
+Id      : 5884
+Handles : 58
+CPU     : 0
+SI      : 1
+Name    : choice
+
+
+Id      : 11920
+Handles : 71
+CPU     : 0.015625
+SI      : 1
+Name    : cmd
+
+
+Id      : 21096
+Handles : 83
+CPU     : 1.75
+SI      : 1
+Name    : cmd
+
+
+Id      : 33196
+Handles : 110
+CPU     : 0.015625
+SI      : 1
+Name    : cmd
+
+
+Id      : 5188
+Handles : 637
+CPU     : 40.4375
+SI      : 1
+Name    : Code
+
+
+Id      : 10268
+Handles : 189
+CPU     : 0.3125
+SI      : 1
+Name    : Code
+
+
+Id      : 10796
+Handles : 1028
+CPU     : 28.15625
+SI      : 1
+Name    : Code
+
+
+Id      : 21036
+Handles : 709
+CPU     : 43.515625
+SI      : 1
+Name    : Code
+
+
+Id      : 21520
+Handles : 240
+CPU     : 0.03125
+SI      : 1
+Name    : Code
+
+
+Id      : 23312
+Handles : 304
+CPU     : 0.4375
+SI      : 1
+Name    : Code
+
+
+Id      : 23380
+Handles : 275
+CPU     : 0.171875
+SI      : 1
+Name    : Code
+
+
+Id      : 24664
+Handles : 182
+CPU     : 0.234375
+SI      : 1
+Name    : Code
+
+
+Id      : 25044
+Handles : 339
+CPU     : 6.96875
+SI      : 1
+Name    : Code
+
+
+Id      : 25264
+Handles : 394
+CPU     : 11.34375
+SI      : 1
+Name    : Code
+
+
+Id      : 5168
+Handles : 82
+CPU     :
+SI      : 0
+Name    : conhost
+
+
+Id      : 8248
+Handles : 142
+CPU     : 0.03125
+SI      : 1
+Name    : conhost
+
+
+Id      : 12212
+Handles : 107
+CPU     : 0.015625
+SI      : 1
+Name    : conhost
+
+
+Id      : 12992
+Handles : 202
+CPU     : 1.3125
+SI      : 1
+Name    : conhost
+
+
+Id      : 13844
+Handles : 133
+CPU     : 0
+SI      : 1
+Name    : conhost
+
+
+Id      : 21060
+Handles : 133
+CPU     : 0.03125
+SI      : 1
+Name    : conhost
+
+
+Id      : 21392
+Handles : 130
+CPU     : 0
+SI      : 1
+Name    : conhost
+
+
+Id      : 21440
+Handles : 107
+CPU     : 0
+SI      : 1
+Name    : conhost
+
+
+Id      : 22460
+Handles : 107
+CPU     : 0
+SI      : 1
+Name    : conhost
+
+
+Id      : 23056
+Handles : 130
+CPU     : 0.015625
+SI      : 1
+Name    : conhost
+
+
+Id      : 23508
+Handles : 107
+CPU     : 0
+SI      : 1
+Name    : conhost
+
+
+Id      : 25116
+Handles : 105
+CPU     : 0.34375
+SI      : 1
+Name    : conhost
+
+
+Id      : 19676
+Handles : 212
+CPU     : 0.046875
+SI      : 1
+Name    : cpptools
+
+
+Id      : 972
+Handles : 647
+CPU     :
+SI      : 0
+Name    : csrss
+
+
+Id      : 1072
+Handles : 1141
+CPU     :
+SI      : 1
+Name    : csrss
+
+
+Id      : 8416
+Handles : 543
+CPU     : 4.609375
+SI      : 1
+Name    : ctfmon
+
+
+Id      : 12320
+Handles : 463
+CPU     :
+SI      : 0
+Name    : dasHost
+
+
+Id      : 8064
+Handles : 320
+CPU     : 0.109375
+SI      : 1
+Name    : DipAwayMode
+
+
+Id      : 21468
+Handles : 138
+CPU     : 0.09375
+SI      : 1
+Name    : DismHost
+
+
+Id      : 5960
+Handles : 202
+CPU     : 0.28125
+SI      : 1
+Name    : dllhost
+
+
+Id      : 9028
+Handles : 243
+CPU     : 1.28125
+SI      : 1
+Name    : dllhost
+
+
+Id      : 11464
+Handles : 241
+CPU     : 0.1875
+SI      : 1
+Name    : dllhost
+
+
+Id      : 13600
+Handles : 203
+CPU     : 0.296875
+SI      : 1
+Name    : dllhost
+
+
+Id      : 13840
+Handles : 165
+CPU     : 0.0625
+SI      : 1
+Name    : dllhost
+
+
+Id      : 13908
+Handles : 201
+CPU     :
+SI      : 0
+Name    : dllhost
+
+
+Id      : 16032
+Handles : 233
+CPU     : 0.65625
+SI      : 1
+Name    : dllhost
+
+
+Id      : 21296
+Handles : 203
+CPU     : 0.15625
+SI      : 1
+Name    : dllhost
+
+
+Id      : 3220
+Handles : 1989
+CPU     :
+SI      : 1
+Name    : dwm
+
+
+Id      : 5500
+Handles : 141
+CPU     :
+SI      : 0
+Name    : Everything
+
+
+Id      : 8824
+Handles : 7325
+CPU     : 200.15625
+SI      : 1
+Name    : explorer
+
+
+Id      : 5768
+Handles : 514
+CPU     : 54.171875
+SI      : 1
+Name    : FanControl
+
+
+Id      : 5700
+Handles : 444
+CPU     : 0.296875
+SI      : 1
+Name    : FileCoAuth
+
+
+Id      : 13884
+Handles : 1267
+CPU     : 1.875
+SI      : 1
+Name    : Flow.Launcher
+
+
+Id      : 1300
+Handles : 33
+CPU     :
+SI      : 0
+Name    : fontdrvhost
+
+
+Id      : 1536
+Handles : 39
+CPU     :
+SI      : 1
+Name    : fontdrvhost
+
+
+Id      : 18140
+Handles : 588
+CPU     :
+SI      : 0
+Name    : gamingservices
+
+
+Id      : 1084
+Handles : 144
+CPU     :
+SI      : 0
+Name    : gamingservicesnet
+
+
+Id      : 13980
+Handles : 630
+CPU     : 449.296875
+SI      : 1
+Name    : HWiNFO64
+
+
+Id      : 9100
+Handles : 1337
+CPU     : 3.46875
+SI      : 1
+Name    : HxOutlook
+
+
+Id      : 8044
+Handles : 679
+CPU     : 0.796875
+SI      : 1
+Name    : HxTsr
+
+
+Id      : 0
+Handles : 0
+CPU     :
+SI      : 0
+Name    : Idle
+
+
+Id      : 1156
+Handles : 1965
+CPU     :
+SI      : 0
+Name    : lsass
+
+
+Id      : 1764
+Handles : 351
+CPU     : 0.515625
+SI      : 1
+Name    : MicrosoftSqlToolsServiceLayer
+
+
+Id      : 20620
+Handles : 361
+CPU     : 0.953125
+SI      : 1
+Name    : mmc
+
+
+Id      : 21028
+Handles : 362
+CPU     : 0.890625
+SI      : 1
+Name    : mmc
+
+
+Id      : 21844
+Handles : 355
+CPU     : 3.21875
+SI      : 1
+Name    : mmc
+
+
+Id      : 988
+Handles : 807
+CPU     : 1.640625
+SI      : 1
+Name    : msedge
+
+
+Id      : 1268
+Handles : 263
+CPU     : 0.171875
+SI      : 1
+Name    : msedge
+
+
+Id      : 1280
+Handles : 340
+CPU     : 5.609375
+SI      : 1
+Name    : msedge
+
+
+Id      : 1620
+Handles : 319
+CPU     : 0.390625
+SI      : 1
+Name    : msedge
+
+
+Id      : 1844
+Handles : 300
+CPU     : 1
+SI      : 1
+Name    : msedge
+
+
+Id      : 2392
+Handles : 376
+CPU     : 0.5625
+SI      : 1
+Name    : msedge
+
+
+Id      : 2992
+Handles : 258
+CPU     : 0.484375
+SI      : 1
+Name    : msedge
+
+
+Id      : 3100
+Handles : 1383
+CPU     : 244.78125
+SI      : 1
+Name    : msedge
+
+
+Id      : 3412
+Handles : 425
+CPU     : 14
+SI      : 1
+Name    : msedge
+
+
+Id      : 4164
+Handles : 280
+CPU     : 0.34375
+SI      : 1
+Name    : msedge
+
+
+Id      : 4536
+Handles : 260
+CPU     : 0.171875
+SI      : 1
+Name    : msedge
+
+
+Id      : 4604
+Handles : 551
+CPU     : 12.59375
+SI      : 1
+Name    : msedge
+
+
+Id      : 4640
+Handles : 250
+CPU     : 0.046875
+SI      : 1
+Name    : msedge
+
+
+Id      : 6344
+Handles : 583
+CPU     : 57.53125
+SI      : 1
+Name    : msedge
+
+
+Id      : 6688
+Handles : 270
+CPU     : 0.203125
+SI      : 1
+Name    : msedge
+
+
+Id      : 7228
+Handles : 408
+CPU     : 8.5
+SI      : 1
+Name    : msedge
+
+
+Id      : 7364
+Handles : 304
+CPU     : 1.453125
+SI      : 1
+Name    : msedge
+
+
+Id      : 7396
+Handles : 347
+CPU     : 4.71875
+SI      : 1
+Name    : msedge
+
+
+Id      : 7456
+Handles : 505
+CPU     : 0.0625
+SI      : 1
+Name    : msedge
+
+
+Id      : 7716
+Handles : 332
+CPU     : 5.359375
+SI      : 1
+Name    : msedge
+
+
+Id      : 7728
+Handles : 258
+CPU     : 2.78125
+SI      : 1
+Name    : msedge
+
+
+Id      : 8056
+Handles : 490
+CPU     : 10.96875
+SI      : 1
+Name    : msedge
+
+
+Id      : 11232
+Handles : 578
+CPU     : 6.15625
+SI      : 1
+Name    : msedge
+
+
+Id      : 11932
+Handles : 279
+CPU     : 0.375
+SI      : 1
+Name    : msedge
+
+
+Id      : 11940
+Handles : 259
+CPU     : 8.40625
+SI      : 1
+Name    : msedge
+
+
+Id      : 12152
+Handles : 261
+CPU     : 8.359375
+SI      : 1
+Name    : msedge
+
+
+Id      : 12216
+Handles : 251
+CPU     : 0.5625
+SI      : 1
+Name    : msedge
+
+
+Id      : 13052
+Handles : 914
+CPU     : 3.796875
+SI      : 1
+Name    : msedge
+
+
+Id      : 13548
+Handles : 395
+CPU     : 1.4375
+SI      : 1
+Name    : msedge
+
+
+Id      : 14576
+Handles : 525
+CPU     : 5.734375
+SI      : 1
+Name    : msedge
+
+
+Id      : 14960
+Handles : 319
+CPU     : 0.78125
+SI      : 1
+Name    : msedge
+
+
+Id      : 15372
+Handles : 259
+CPU     : 0.46875
+SI      : 1
+Name    : msedge
+
+
+Id      : 15432
+Handles : 320
+CPU     : 1.390625
+SI      : 1
+Name    : msedge
+
+
+Id      : 15592
+Handles : 524
+CPU     : 39.0625
+SI      : 1
+Name    : msedge
+
+
+Id      : 16120
+Handles : 267
+CPU     : 0.359375
+SI      : 1
+Name    : msedge
+
+
+Id      : 16356
+Handles : 230
+CPU     : 0.125
+SI      : 1
+Name    : msedge
+
+
+Id      : 16636
+Handles : 3853
+CPU     : 238.984375
+SI      : 1
+Name    : msedge
+
+
+Id      : 17604
+Handles : 283
+CPU     : 0.53125
+SI      : 1
+Name    : msedge
+
+
+Id      : 19016
+Handles : 281
+CPU     : 1.5
+SI      : 1
+Name    : msedge
+
+
+Id      : 19064
+Handles : 507
+CPU     : 50.34375
+SI      : 1
+Name    : msedge
+
+
+Id      : 19512
+Handles : 428
+CPU     : 2.734375
+SI      : 1
+Name    : msedge
+
+
+Id      : 19588
+Handles : 259
+CPU     : 0.25
+SI      : 1
+Name    : msedge
+
+
+Id      : 20956
+Handles : 259
+CPU     : 0.265625
+SI      : 1
+Name    : msedge
+
+
+Id      : 21688
+Handles : 248
+CPU     : 0.140625
+SI      : 1
+Name    : msedge
+
+
+Id      : 23340
+Handles : 320
+CPU     : 0.765625
+SI      : 1
+Name    : msedge
+
+
+Id      : 23368
+Handles : 278
+CPU     : 0.265625
+SI      : 1
+Name    : msedge
+
+
+Id      : 23964
+Handles : 341
+CPU     : 0.671875
+SI      : 1
+Name    : msedge
+
+
+Id      : 25052
+Handles : 252
+CPU     : 0.09375
+SI      : 1
+Name    : msedge
+
+
+Id      : 25776
+Handles : 335
+CPU     : 0.46875
+SI      : 1
+Name    : msedge
+
+
+Id      : 26156
+Handles : 193
+CPU     : 0.03125
+SI      : 1
+Name    : msedge
+
+
+Id      : 27204
+Handles : 278
+CPU     : 0.125
+SI      : 1
+Name    : msedge
+
+
+Id      : 27424
+Handles : 360
+CPU     : 1.03125
+SI      : 1
+Name    : msedge
+
+
+Id      : 31672
+Handles : 227
+CPU     : 0.03125
+SI      : 1
+Name    : msedge
+
+
+Id      : 5844
+Handles : 702
+CPU     : 11.90625
+SI      : 1
+Name    : msedgewebview2
+
+
+Id      : 7336
+Handles : 291
+CPU     : 1.59375
+SI      : 1
+Name    : msedgewebview2
+
+
+Id      : 8204
+Handles : 396
+CPU     : 16.46875
+SI      : 1
+Name    : msedgewebview2
+
+
+Id      : 12500
+Handles : 188
+CPU     : 0.046875
+SI      : 1
+Name    : msedgewebview2
+
+
+Id      : 17260
+Handles : 217
+CPU     : 0.03125
+SI      : 1
+Name    : msedgewebview2
+
+
+Id      : 19116
+Handles : 1188
+CPU     : 9.296875
+SI      : 1
+Name    : msedgewebview2
+
+
+Id      : 20860
+Handles : 340
+CPU     : 1.609375
+SI      : 1
+Name    : msedgewebview2
+
+
+Id      : 5468
+Handles : 330
+CPU     :
+SI      : 0
+Name    : NahimicService
+
+
+Id      : 9064
+Handles : 403
+CPU     : 0.609375
+SI      : 1
+Name    : NahimicSvc32
+
+
+Id      : 9056
+Handles : 1084
+CPU     : 0.34375
+SI      : 1
+Name    : NahimicSvc64
+
+
+Id      : 4512
+Handles : 289
+CPU     : 0.1875
+SI      : 1
+Name    : NanaZip
+
+
+Id      : 18992
+Handles : 290
+CPU     : 0.21875
+SI      : 1
+Name    : NanaZip
+
+
+Id      : 5544
+Handles : 704
+CPU     :
+SI      : 0
+Name    : nvcontainer
+
+
+Id      : 7952
+Handles : 249
+CPU     :
+SI      : 1
+Name    : nvcontainer
+
+
+Id      : 8148
+Handles : 391
+CPU     : 0.828125
+SI      : 1
+Name    : nvcontainer
+
+
+Id      : 8172
+Handles : 542
+CPU     : 13.734375
+SI      : 1
+Name    : nvcontainer
+
+
+Id      : 2248
+Handles : 354
+CPU     :
+SI      : 0
+Name    : NVDisplay.Container
+
+
+Id      : 3312
+Handles : 747
+CPU     :
+SI      : 1
+Name    : NVDisplay.Container
+
+
+Id      : 14056
+Handles : 779
+CPU     : 1.203125
+SI      : 1
+Name    : NVIDIA Share
+
+
+Id      : 14192
+Handles : 593
+CPU     : 0.171875
+SI      : 1
+Name    : NVIDIA Share
+
+
+Id      : 14856
+Handles : 341
+CPU     : 0.5625
+SI      : 1
+Name    : NVIDIA Share
+
+
+Id      : 12248
+Handles : 597
+CPU     : 0.53125
+SI      : 1
+Name    : NVIDIA Web Helper
+
+
+Id      : 14036
+Handles : 243
+CPU     : 0.0625
+SI      : 1
+Name    : nvsphelper64
+
+
+Id      : 5616
+Handles : 650
+CPU     :
+SI      : 0
+Name    : OfficeClickToRun
+
+
+Id      : 13192
+Handles : 818
+CPU     : 29.78125
+SI      : 1
+Name    : OneDrive
+
+
+Id      : 23008
+Handles : 172
+CPU     : 0.046875
+SI      : 1
+Name    : OpenConsole
+
+
+Id      : 7116
+Handles : 361
+CPU     : 15.828125
+SI      : 1
+Name    : PAD.BrowserNativeMessageHost
+
+
+Id      : 18396
+Handles : 1014
+CPU     : 4.296875
+SI      : 1
+Name    : PAD.Console.Host
+
+
+Id      : 22740
+Handles : 726
+CPU     : 2.21875
+SI      : 1
+Name    : powershell
+
+
+Id      : 23952
+Handles : 715
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 17568
+Handles : 463
+CPU     : 0.359375
+SI      : 1
+Name    : PowerSwitcher.TrayApp
+
+
+Id      : 13288
+Handles : 640
+CPU     : 1.25
+SI      : 1
+Name    : PowerToys
+
+
+Id      : 14028
+Handles : 204
+CPU     : 30.453125
+SI      : 1
+Name    : PowerToys.AlwaysOnTop
+
+
+Id      : 14020
+Handles : 403
+CPU     : 0.40625
+SI      : 1
+Name    : PowerToys.Awake
+
+
+Id      : 13412
+Handles : 369
+CPU     : 28.78125
+SI      : 1
+Name    : PowerToys.FancyZones
+
+
+Id      : 13440
+Handles : 132
+CPU     : 0.296875
+SI      : 1
+Name    : PowerToys.KeyboardManagerEngine
+
+
+Id      : 5536
+Handles : 239
+CPU     :
+SI      : 0
+Name    : ppmpanel
+
+
+Id      : 15416
+Handles : 1214
+CPU     : 4.96875
+SI      : 1
+Name    : pwsh
+
+
+Id      : 24152
+Handles : 672
+CPU     : 2.21875
+SI      : 1
+Name    : pwsh
+
+
+Id      : 12124
+Handles : 433
+CPU     : 0.046875
+SI      : 1
+Name    : ReflectUI
+
+
+Id      : 400
+Handles : 0
+CPU     :
+SI      : 0
+Name    : Registry
+
+
+Id      : 12928
+Handles : 1353
+CPU     : 12.015625
+SI      : 1
+Name    : Ring
+
+
+Id      : 5516
+Handles : 311
+CPU     :
+SI      : 0
+Name    : RtkAudUService64
+
+
+Id      : 13488
+Handles : 328
+CPU     : 0.09375
+SI      : 1
+Name    : RtkAudUService64
+
+
+Id      : 6904
+Handles : 138
+CPU     :
+SI      : 1
+Name    : rundll32
+
+
+Id      : 4800
+Handles : 260
+CPU     : 0.15625
+SI      : 1
+Name    : RuntimeBroker
+
+
+Id      : 10788
+Handles : 272
+CPU     : 0.234375
+SI      : 1
+Name    : RuntimeBroker
+
+
+Id      : 10920
+Handles : 824
+CPU     : 1.828125
+SI      : 1
+Name    : RuntimeBroker
+
+
+Id      : 13804
+Handles : 266
+CPU     : 0.03125
+SI      : 1
+Name    : RuntimeBroker
+
+
+Id      : 16816
+Handles : 139
+CPU     : 0.03125
+SI      : 1
+Name    : RuntimeBroker
+
+
+Id      : 18828
+Handles : 393
+CPU     : 0.09375
+SI      : 1
+Name    : RuntimeBroker
+
+
+Id      : 18968
+Handles : 147
+CPU     : 0.03125
+SI      : 1
+Name    : RuntimeBroker
+
+
+Id      : 21500
+Handles : 151
+CPU     : 0.015625
+SI      : 1
+Name    : RuntimeBroker
+
+
+Id      : 10680
+Handles : 1395
+CPU     : 5.125
+SI      : 1
+Name    : SearchHost
+
+
+Id      : 1632
+Handles : 792
+CPU     :
+SI      : 0
+Name    : SearchIndexer
+
+
+Id      : 7252
+Handles : 295
+CPU     :
+SI      : 0
+Name    : SecurityHealthService
+
+
+Id      : 1136
+Handles : 877
+CPU     :
+SI      : 0
+Name    : services
+
+
+Id      : 9260
+Handles : 107
+CPU     :
+SI      : 0
+Name    : SgrmBroker
+
+
+Id      : 8164
+Handles : 918
+CPU     : 0.25
+SI      : 1
+Name    : ShellExperienceHost
+
+
+Id      : 16232
+Handles : 2503
+CPU     : 1213.59375
+SI      : 1
+Name    : SignalRgb
+
+
+Id      : 16176
+Handles : 197
+CPU     : 0.046875
+SI      : 1
+Name    : SignalRgbLauncher
+
+
+Id      : 5304
+Handles : 703
+CPU     : 1.734375
+SI      : 1
+Name    : sihost
+
+
+Id      : 832
+Handles : 57
+CPU     :
+SI      : 0
+Name    : smss
+
+
+Id      : 2324
+Handles : 51
+CPU     :
+SI      : 0
+Name    : spaceman
+
+
+Id      : 4988
+Handles : 424
+CPU     :
+SI      : 0
+Name    : spoolsv
+
+
+Id      : 25336
+Handles : 294
+CPU     : 0.25
+SI      : 1
+Name    : SqlToolsResourceProviderService
+
+
+Id      : 10672
+Handles : 761
+CPU     : 0.84375
+SI      : 1
+Name    : StartMenuExperienceHost
+
+
+Id      : 15504
+Handles : 972
+CPU     : 62.046875
+SI      : 1
+Name    : steam
+
+
+Id      : 15612
+Handles : 243
+CPU     :
+SI      : 0
+Name    : steamservice
+
+
+Id      : 15580
+Handles : 783
+CPU     : 0.796875
+SI      : 1
+Name    : steamwebhelper
+
+
+Id      : 15648
+Handles : 267
+CPU     : 0.03125
+SI      : 1
+Name    : steamwebhelper
+
+
+Id      : 15740
+Handles : 714
+CPU     : 2.828125
+SI      : 1
+Name    : steamwebhelper
+
+
+Id      : 16512
+Handles : 367
+CPU     : 0.109375
+SI      : 1
+Name    : steamwebhelper
+
+
+Id      : 17620
+Handles : 522
+CPU     : 0.109375
+SI      : 1
+Name    : steamwebhelper
+
+
+Id      : 17860
+Handles : 505
+CPU     : 0.046875
+SI      : 1
+Name    : steamwebhelper
+
+
+Id      : 17896
+Handles : 535
+CPU     : 2.515625
+SI      : 1
+Name    : steamwebhelper
+
+
+Id      : 944
+Handles : 162
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 1176
+Handles : 436
+CPU     : 5.328125
+SI      : 1
+Name    : svchost
+
+
+Id      : 1272
+Handles : 1808
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 1376
+Handles : 1521
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 1416
+Handles : 358
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 1524
+Handles : 860
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 1612
+Handles : 495
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 1660
+Handles : 179
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 1668
+Handles : 113
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 1676
+Handles : 149
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 1684
+Handles : 255
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 1876
+Handles : 253
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 1884
+Handles : 193
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 1892
+Handles : 314
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2000
+Handles : 266
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2008
+Handles : 125
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2132
+Handles : 222
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2308
+Handles : 337
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2332
+Handles : 424
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2376
+Handles : 195
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2384
+Handles : 434
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2536
+Handles : 232
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2612
+Handles : 208
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2720
+Handles : 176
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2768
+Handles : 427
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2788
+Handles : 335
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2796
+Handles : 169
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2888
+Handles : 169
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2956
+Handles : 213
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 2964
+Handles : 163
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 3136
+Handles : 479
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 3272
+Handles : 238
+CPU     : 0.09375
+SI      : 1
+Name    : svchost
+
+
+Id      : 3284
+Handles : 539
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 3464
+Handles : 245
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 3488
+Handles : 214
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 3536
+Handles : 316
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 3652
+Handles : 115
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 4056
+Handles : 172
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 4108
+Handles : 199
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 4144
+Handles : 441
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 4272
+Handles : 227
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 4780
+Handles : 148
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 4788
+Handles : 418
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 4912
+Handles : 514
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 4936
+Handles : 263
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 5012
+Handles : 415
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 5052
+Handles : 169
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 5104
+Handles : 362
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 5164
+Handles : 331
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 5288
+Handles : 140
+CPU     : 0.109375
+SI      : 1
+Name    : svchost
+
+
+Id      : 5396
+Handles : 300
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 5408
+Handles : 653
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 5432
+Handles : 359
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 5440
+Handles : 376
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 5448
+Handles : 263
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 5476
+Handles : 141
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 5484
+Handles : 180
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 5716
+Handles : 214
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 6056
+Handles : 247
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 7356
+Handles : 1280
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 7652
+Handles : 578
+CPU     : 1.328125
+SI      : 1
+Name    : svchost
+
+
+Id      : 7664
+Handles : 133
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 7672
+Handles : 202
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 7744
+Handles : 265
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 7792
+Handles : 163
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 8280
+Handles : 246
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 8288
+Handles : 357
+CPU     : 5.484375
+SI      : 1
+Name    : svchost
+
+
+Id      : 8328
+Handles : 166
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 8700
+Handles : 380
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 9188
+Handles : 169
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 9296
+Handles : 300
+CPU     : 0.125
+SI      : 1
+Name    : svchost
+
+
+Id      : 9360
+Handles : 380
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 9572
+Handles : 457
+CPU     : 0.28125
+SI      : 1
+Name    : svchost
+
+
+Id      : 10392
+Handles : 339
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 11244
+Handles : 217
+CPU     : 0.125
+SI      : 1
+Name    : svchost
+
+
+Id      : 12984
+Handles : 257
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 13016
+Handles : 83
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 14080
+Handles : 291
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 4
+Handles : 6881
+CPU     :
+SI      : 0
+Name    : System
+
+
+Id      : 22620
+Handles : 636
+CPU     : 5.5625
+SI      : 1
+Name    : System Ninja
+
+
+Id      : 1916
+Handles : 233
+CPU     : 0
+SI      : 1
+Name    : SystemSettingsAdminFlows
+
+
+Id      : 19712
+Handles : 439
+CPU     : 3.65625
+SI      : 1
+Name    : SystemSettingsAdminFlows
+
+
+Id      : 8916
+Handles : 309
+CPU     : 0.828125
+SI      : 1
+Name    : taskhostw
+
+
+Id      : 5524
+Handles : 122
+CPU     :
+SI      : 0
+Name    : TbtP2pShortcutService
+
+
+Id      : 15044
+Handles : 1466
+CPU     : 2.546875
+SI      : 1
+Name    : TextInputHost
+
+
+Id      : 5492
+Handles : 286
+CPU     :
+SI      : 0
+Name    : ThunderboltService
+
+
+Id      : 21752
+Handles : 217
+CPU     :
+SI      : 0
+Name    : TiWorker
+
+
+Id      : 17392
+Handles : 531
+CPU     : 50.046875
+SI      : 1
+Name    : TranslucentTB
+
+
+Id      : 21712
+Handles : 123
+CPU     :
+SI      : 0
+Name    : TrustedInstaller
+
+
+Id      : 7496
+Handles : 117
+CPU     :
+SI      : 0
+Name    : unsecapp
+
+
+Id      : 7828
+Handles : 254
+CPU     :
+SI      : 0
+Name    : vds
+
+
+Id      : 16060
+Handles : 460
+CPU     : 18.40625
+SI      : 1
+Name    : wallpaper64
+
+
+Id      : 7540
+Handles : 257
+CPU     : 0.015625
+SI      : 1
+Name    : webwallpaper32
+
+
+Id      : 8208
+Handles : 567
+CPU     : 9.234375
+SI      : 1
+Name    : webwallpaper32
+
+
+Id      : 11520
+Handles : 294
+CPU     : 0.046875
+SI      : 1
+Name    : webwallpaper32
+
+
+Id      : 20328
+Handles : 699
+CPU     : 102.296875
+SI      : 1
+Name    : webwallpaper32
+
+
+Id      : 21564
+Handles : 385
+CPU     : 19.90625
+SI      : 1
+Name    : webwallpaper32
+
+
+Id      : 5556
+Handles : 727
+CPU     : 1.234375
+SI      : 1
+Name    : Widgets
+
+
+Id      : 20820
+Handles : 989
+CPU     : 0.609375
+SI      : 1
+Name    : WindowsTerminal
+
+
+Id      : 1064
+Handles : 149
+CPU     :
+SI      : 0
+Name    : wininit
+
+
+Id      : 1472
+Handles : 277
+CPU     :
+SI      : 1
+Name    : winlogon
+
+
+Id      : 3212
+Handles : 649
+CPU     : 10.78125
+SI      : 1
+Name    : WinNTSetup_x64
+
+
+Id      : 5156
+Handles : 153
+CPU     :
+SI      : 0
+Name    : wlanext
+
+
+Id      : 3572
+Handles : 183
+CPU     :
+SI      : 0
+Name    : WmiPrvSE
+
+
+Id      : 4176
+Handles : 431
+CPU     :
+SI      : 0
+Name    : WmiPrvSE
+
+
+Id      : 4268
+Handles : 304
+CPU     :
+SI      : 0
+Name    : WUDFHost
+
+
+Id      : 11752
+Handles : 245
+CPU     :
+SI      : 0
+Name    : WUDFHost
+
+Writing some text to the log file
+**********************
+Windows PowerShell transcript end
+End time: 20220217121401
+**********************
