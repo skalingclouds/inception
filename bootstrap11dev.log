@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20220217121359
+Start time: 20220217123351
 Username: ZENBOX\chris
 RunAs User: ZENBOX\chris
 Configuration Name: 
 Machine: ZENBOX (Microsoft Windows NT 10.0.22000.0)
-Host Application: powershell -ExecutionPolicy ByPass -File c:\Users\chris\Desktop\inception\inception\bootstrap11dev.ps1
-Process ID: 22740
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe .\bootstrap11dev.ps1
+Process ID: 128568
 PSVersion: 5.1.22000.282
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22000.282
@@ -24,8 +24,8 @@ Transcript started, output file is C:\Users\chris\Desktop\inception\inception\bo
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
--a----         2/17/2022  12:13 PM            734 bootstrap11dev.log
--a----         2/17/2022  12:13 PM            213 bootstrap11dev.ps1
+-a----         2/17/2022  12:33 PM            613 bootstrap11dev.log
+-a----         2/17/2022  12:33 PM            509 bootstrap11dev.ps1
 -a----         2/17/2022  11:57 AM             11 README.md
 
 Status      : Running
@@ -68,7 +68,7 @@ Name        : AppVClient
 DisplayName : Microsoft App-V Client
 
 
-Status      : Stopped
+Status      : Running
 Name        : AppXSvc
 DisplayName : AppX Deployment Service (AppXSVC)
 
@@ -1293,7 +1293,7 @@ Name        : WdiServiceHost
 DisplayName : Diagnostic Service Host
 
 
-Status      : Stopped
+Status      : Running
 Name        : WdiSystemHost
 DisplayName : Diagnostic System Host
 
@@ -1368,7 +1368,7 @@ Name        : WlanSvc
 DisplayName : WLAN AutoConfig
 
 
-Status      : Stopped
+Status      : Running
 Name        : wlidsvc
 DisplayName : Microsoft Account Sign-in Assistant
 
@@ -1489,7 +1489,7 @@ Name    : AsusFanControlService
 
 
 Id      : 18492
-Handles : 1512
+Handles : 1612
 CPU     : 0.5625
 SI      : 1
 Name    : asusns
@@ -1503,8 +1503,8 @@ Name    : atkexComSvc
 
 
 Id      : 8836
-Handles : 907
-CPU     : 317.8125
+Handles : 908
+CPU     : 351.796875
 SI      : 0
 Name    : audiodg
 
@@ -1530,79 +1530,86 @@ SI      : 1
 Name    : cmd
 
 
-Id      : 33196
-Handles : 110
-CPU     : 0.015625
-SI      : 1
-Name    : cmd
-
-
-Id      : 5188
-Handles : 637
-CPU     : 40.4375
+Id      : 19804
+Handles : 669
+CPU     : 33.5
 SI      : 1
 Name    : Code
 
 
-Id      : 10268
-Handles : 189
-CPU     : 0.3125
+Id      : 22760
+Handles : 715
+CPU     : 15.71875
 SI      : 1
 Name    : Code
 
 
-Id      : 10796
-Handles : 1028
-CPU     : 28.15625
+Id      : 48920
+Handles : 252
+CPU     : 0.109375
 SI      : 1
 Name    : Code
 
 
-Id      : 21036
-Handles : 709
-CPU     : 43.515625
+Id      : 56776
+Handles : 289
+CPU     : 0.125
 SI      : 1
 Name    : Code
 
 
-Id      : 21520
-Handles : 240
-CPU     : 0.03125
+Id      : 56944
+Handles : 978
+CPU     : 16.75
 SI      : 1
 Name    : Code
 
 
-Id      : 23312
-Handles : 304
-CPU     : 0.4375
+Id      : 61524
+Handles : 405
+CPU     : 3.4375
 SI      : 1
 Name    : Code
 
 
-Id      : 23380
-Handles : 275
+Id      : 84632
+Handles : 182
 CPU     : 0.171875
 SI      : 1
 Name    : Code
 
 
-Id      : 24664
-Handles : 182
-CPU     : 0.234375
+Id      : 123784
+Handles : 341
+CPU     : 6.34375
 SI      : 1
 Name    : Code
 
 
-Id      : 25044
-Handles : 339
-CPU     : 6.96875
+Id      : 125972
+Handles : 253
+CPU     : 0.40625
 SI      : 1
 Name    : Code
 
 
-Id      : 25264
-Handles : 394
-CPU     : 11.34375
+Id      : 131588
+Handles : 214
+CPU     : 0.078125
+SI      : 1
+Name    : Code
+
+
+Id      : 131960
+Handles : 202
+CPU     : 0.109375
+SI      : 1
+Name    : Code
+
+
+Id      : 132384
+Handles : 181
+CPU     : 0.390625
 SI      : 1
 Name    : Code
 
@@ -1636,35 +1643,14 @@ Name    : conhost
 
 
 Id      : 13844
-Handles : 133
-CPU     : 0
-SI      : 1
-Name    : conhost
-
-
-Id      : 21060
-Handles : 133
-CPU     : 0.03125
-SI      : 1
-Name    : conhost
-
-
-Id      : 21392
 Handles : 130
 CPU     : 0
 SI      : 1
 Name    : conhost
 
 
-Id      : 21440
-Handles : 107
-CPU     : 0
-SI      : 1
-Name    : conhost
-
-
-Id      : 22460
-Handles : 107
+Id      : 21392
+Handles : 130
 CPU     : 0
 SI      : 1
 Name    : conhost
@@ -1677,44 +1663,79 @@ SI      : 1
 Name    : conhost
 
 
-Id      : 23508
+Id      : 29476
+Handles : 1143
+CPU     : 5.40625
+SI      : 1
+Name    : conhost
+
+
+Id      : 131192
+Handles : 133
+CPU     : 0
+SI      : 1
+Name    : conhost
+
+
+Id      : 131424
+Handles : 133
+CPU     : 0.015625
+SI      : 1
+Name    : conhost
+
+
+Id      : 132124
+Handles : 107
+CPU     : 0.03125
+SI      : 1
+Name    : conhost
+
+
+Id      : 132244
 Handles : 107
 CPU     : 0
 SI      : 1
 Name    : conhost
 
 
-Id      : 25116
-Handles : 105
-CPU     : 0.34375
+Id      : 132484
+Handles : 107
+CPU     : 0.015625
 SI      : 1
 Name    : conhost
 
 
-Id      : 19676
-Handles : 212
+Id      : 132912
+Handles : 133
 CPU     : 0.046875
+SI      : 1
+Name    : conhost
+
+
+Id      : 132476
+Handles : 202
+CPU     : 0.03125
 SI      : 1
 Name    : cpptools
 
 
 Id      : 972
-Handles : 647
+Handles : 661
 CPU     :
 SI      : 0
 Name    : csrss
 
 
 Id      : 1072
-Handles : 1141
+Handles : 5210
 CPU     :
 SI      : 1
 Name    : csrss
 
 
 Id      : 8416
-Handles : 543
-CPU     : 4.609375
+Handles : 539
+CPU     : 5.53125
 SI      : 1
 Name    : ctfmon
 
@@ -1755,8 +1776,8 @@ Name    : dllhost
 
 
 Id      : 11464
-Handles : 241
-CPU     : 0.1875
+Handles : 250
+CPU     : 0.203125
 SI      : 1
 Name    : dllhost
 
@@ -1769,8 +1790,8 @@ Name    : dllhost
 
 
 Id      : 13840
-Handles : 165
-CPU     : 0.0625
+Handles : 172
+CPU     : 0.078125
 SI      : 1
 Name    : dllhost
 
@@ -1797,7 +1818,7 @@ Name    : dllhost
 
 
 Id      : 3220
-Handles : 1989
+Handles : 1979
 CPU     :
 SI      : 1
 Name    : dwm
@@ -1811,29 +1832,29 @@ Name    : Everything
 
 
 Id      : 8824
-Handles : 7325
-CPU     : 200.15625
+Handles : 7817
+CPU     : 226.15625
 SI      : 1
 Name    : explorer
 
 
 Id      : 5768
 Handles : 514
-CPU     : 54.171875
+CPU     : 60.4375
 SI      : 1
 Name    : FanControl
 
 
 Id      : 5700
-Handles : 444
-CPU     : 0.296875
+Handles : 437
+CPU     : 0.375
 SI      : 1
 Name    : FileCoAuth
 
 
 Id      : 13884
-Handles : 1267
-CPU     : 1.875
+Handles : 1262
+CPU     : 1.921875
 SI      : 1
 Name    : Flow.Launcher
 
@@ -1853,7 +1874,7 @@ Name    : fontdrvhost
 
 
 Id      : 18140
-Handles : 588
+Handles : 587
 CPU     :
 SI      : 0
 Name    : gamingservices
@@ -1868,23 +1889,9 @@ Name    : gamingservicesnet
 
 Id      : 13980
 Handles : 630
-CPU     : 449.296875
+CPU     : 504.515625
 SI      : 1
 Name    : HWiNFO64
-
-
-Id      : 9100
-Handles : 1337
-CPU     : 3.46875
-SI      : 1
-Name    : HxOutlook
-
-
-Id      : 8044
-Handles : 679
-CPU     : 0.796875
-SI      : 1
-Name    : HxTsr
 
 
 Id      : 0
@@ -1895,15 +1902,15 @@ Name    : Idle
 
 
 Id      : 1156
-Handles : 1965
+Handles : 11232
 CPU     :
 SI      : 0
 Name    : lsass
 
 
-Id      : 1764
-Handles : 351
-CPU     : 0.515625
+Id      : 131976
+Handles : 370
+CPU     : 0.546875
 SI      : 1
 Name    : MicrosoftSqlToolsServiceLayer
 
@@ -1924,91 +1931,28 @@ Name    : mmc
 
 Id      : 21844
 Handles : 355
-CPU     : 3.21875
+CPU     : 3.890625
 SI      : 1
 Name    : mmc
 
 
-Id      : 988
-Handles : 807
-CPU     : 1.640625
-SI      : 1
-Name    : msedge
-
-
 Id      : 1268
-Handles : 263
+Handles : 266
 CPU     : 0.171875
-SI      : 1
-Name    : msedge
-
-
-Id      : 1280
-Handles : 340
-CPU     : 5.609375
-SI      : 1
-Name    : msedge
-
-
-Id      : 1620
-Handles : 319
-CPU     : 0.390625
-SI      : 1
-Name    : msedge
-
-
-Id      : 1844
-Handles : 300
-CPU     : 1
-SI      : 1
-Name    : msedge
-
-
-Id      : 2392
-Handles : 376
-CPU     : 0.5625
 SI      : 1
 Name    : msedge
 
 
 Id      : 2992
 Handles : 258
-CPU     : 0.484375
+CPU     : 0.515625
 SI      : 1
 Name    : msedge
 
 
 Id      : 3100
-Handles : 1383
-CPU     : 244.78125
-SI      : 1
-Name    : msedge
-
-
-Id      : 3412
-Handles : 425
-CPU     : 14
-SI      : 1
-Name    : msedge
-
-
-Id      : 4164
-Handles : 280
-CPU     : 0.34375
-SI      : 1
-Name    : msedge
-
-
-Id      : 4536
-Handles : 260
-CPU     : 0.171875
-SI      : 1
-Name    : msedge
-
-
-Id      : 4604
-Handles : 551
-CPU     : 12.59375
+Handles : 1002
+CPU     : 255.15625
 SI      : 1
 Name    : msedge
 
@@ -2021,42 +1965,14 @@ Name    : msedge
 
 
 Id      : 6344
-Handles : 583
-CPU     : 57.53125
-SI      : 1
-Name    : msedge
-
-
-Id      : 6688
-Handles : 270
-CPU     : 0.203125
-SI      : 1
-Name    : msedge
-
-
-Id      : 7228
-Handles : 408
-CPU     : 8.5
-SI      : 1
-Name    : msedge
-
-
-Id      : 7364
-Handles : 304
-CPU     : 1.453125
-SI      : 1
-Name    : msedge
-
-
-Id      : 7396
-Handles : 347
-CPU     : 4.71875
+Handles : 343
+CPU     : 59.453125
 SI      : 1
 Name    : msedge
 
 
 Id      : 7456
-Handles : 505
+Handles : 295
 CPU     : 0.0625
 SI      : 1
 Name    : msedge
@@ -2064,133 +1980,63 @@ Name    : msedge
 
 Id      : 7716
 Handles : 332
-CPU     : 5.359375
+CPU     : 5.953125
 SI      : 1
 Name    : msedge
 
 
 Id      : 7728
 Handles : 258
-CPU     : 2.78125
-SI      : 1
-Name    : msedge
-
-
-Id      : 8056
-Handles : 490
-CPU     : 10.96875
+CPU     : 2.796875
 SI      : 1
 Name    : msedge
 
 
 Id      : 11232
 Handles : 578
-CPU     : 6.15625
-SI      : 1
-Name    : msedge
-
-
-Id      : 11932
-Handles : 279
-CPU     : 0.375
+CPU     : 6.171875
 SI      : 1
 Name    : msedge
 
 
 Id      : 11940
-Handles : 259
-CPU     : 8.40625
+Handles : 274
+CPU     : 9.8125
 SI      : 1
 Name    : msedge
 
 
 Id      : 12152
 Handles : 261
-CPU     : 8.359375
+CPU     : 8.484375
 SI      : 1
 Name    : msedge
 
 
 Id      : 12216
 Handles : 251
-CPU     : 0.5625
-SI      : 1
-Name    : msedge
-
-
-Id      : 13052
-Handles : 914
-CPU     : 3.796875
-SI      : 1
-Name    : msedge
-
-
-Id      : 13548
-Handles : 395
-CPU     : 1.4375
-SI      : 1
-Name    : msedge
-
-
-Id      : 14576
-Handles : 525
-CPU     : 5.734375
-SI      : 1
-Name    : msedge
-
-
-Id      : 14960
-Handles : 319
-CPU     : 0.78125
+CPU     : 0.59375
 SI      : 1
 Name    : msedge
 
 
 Id      : 15372
-Handles : 259
-CPU     : 0.46875
-SI      : 1
-Name    : msedge
-
-
-Id      : 15432
-Handles : 320
-CPU     : 1.390625
-SI      : 1
-Name    : msedge
-
-
-Id      : 15592
-Handles : 524
-CPU     : 39.0625
-SI      : 1
-Name    : msedge
-
-
-Id      : 16120
-Handles : 267
-CPU     : 0.359375
+Handles : 235
+CPU     : 0.53125
 SI      : 1
 Name    : msedge
 
 
 Id      : 16356
-Handles : 230
+Handles : 213
 CPU     : 0.125
 SI      : 1
 Name    : msedge
 
 
 Id      : 16636
-Handles : 3853
-CPU     : 238.984375
-SI      : 1
-Name    : msedge
-
-
-Id      : 17604
-Handles : 283
-CPU     : 0.53125
+Handles : 2397
+CPU     : 252.125
 SI      : 1
 Name    : msedge
 
@@ -2202,72 +2048,23 @@ SI      : 1
 Name    : msedge
 
 
-Id      : 19064
-Handles : 507
-CPU     : 50.34375
-SI      : 1
-Name    : msedge
-
-
-Id      : 19512
-Handles : 428
-CPU     : 2.734375
-SI      : 1
-Name    : msedge
-
-
-Id      : 19588
-Handles : 259
-CPU     : 0.25
-SI      : 1
-Name    : msedge
-
-
 Id      : 20956
 Handles : 259
-CPU     : 0.265625
+CPU     : 0.28125
 SI      : 1
 Name    : msedge
 
 
 Id      : 21688
-Handles : 248
-CPU     : 0.140625
-SI      : 1
-Name    : msedge
-
-
-Id      : 23340
-Handles : 320
-CPU     : 0.765625
-SI      : 1
-Name    : msedge
-
-
-Id      : 23368
-Handles : 278
-CPU     : 0.265625
-SI      : 1
-Name    : msedge
-
-
-Id      : 23964
-Handles : 341
-CPU     : 0.671875
+Handles : 254
+CPU     : 0.234375
 SI      : 1
 Name    : msedge
 
 
 Id      : 25052
-Handles : 252
-CPU     : 0.09375
-SI      : 1
-Name    : msedge
-
-
-Id      : 25776
-Handles : 335
-CPU     : 0.46875
+Handles : 258
+CPU     : 0.171875
 SI      : 1
 Name    : msedge
 
@@ -2281,42 +2078,42 @@ Name    : msedge
 
 Id      : 27204
 Handles : 278
-CPU     : 0.125
+CPU     : 0.140625
 SI      : 1
 Name    : msedge
 
 
 Id      : 27424
-Handles : 360
-CPU     : 1.03125
+Handles : 358
+CPU     : 1.78125
 SI      : 1
 Name    : msedge
 
 
-Id      : 31672
-Handles : 227
-CPU     : 0.03125
+Id      : 87696
+Handles : 362
+CPU     : 0.5625
 SI      : 1
 Name    : msedge
 
 
 Id      : 5844
 Handles : 702
-CPU     : 11.90625
+CPU     : 13.25
 SI      : 1
 Name    : msedgewebview2
 
 
 Id      : 7336
-Handles : 291
-CPU     : 1.59375
+Handles : 289
+CPU     : 1.671875
 SI      : 1
 Name    : msedgewebview2
 
 
 Id      : 8204
 Handles : 396
-CPU     : 16.46875
+CPU     : 17.21875
 SI      : 1
 Name    : msedgewebview2
 
@@ -2336,8 +2133,8 @@ Name    : msedgewebview2
 
 
 Id      : 19116
-Handles : 1188
-CPU     : 9.296875
+Handles : 1198
+CPU     : 12.046875
 SI      : 1
 Name    : msedgewebview2
 
@@ -2365,7 +2162,7 @@ Name    : NahimicSvc32
 
 Id      : 9056
 Handles : 1084
-CPU     : 0.34375
+CPU     : 0.359375
 SI      : 1
 Name    : NahimicSvc64
 
@@ -2407,7 +2204,7 @@ Name    : nvcontainer
 
 Id      : 8172
 Handles : 542
-CPU     : 13.734375
+CPU     : 15.078125
 SI      : 1
 Name    : nvcontainer
 
@@ -2428,7 +2225,7 @@ Name    : NVDisplay.Container
 
 Id      : 14056
 Handles : 779
-CPU     : 1.203125
+CPU     : 1.3125
 SI      : 1
 Name    : NVIDIA Share
 
@@ -2449,7 +2246,7 @@ Name    : NVIDIA Share
 
 Id      : 12248
 Handles : 597
-CPU     : 0.53125
+CPU     : 0.546875
 SI      : 1
 Name    : NVIDIA Web Helper
 
@@ -2469,8 +2266,8 @@ Name    : OfficeClickToRun
 
 
 Id      : 13192
-Handles : 818
-CPU     : 29.78125
+Handles : 819
+CPU     : 29.8125
 SI      : 1
 Name    : OneDrive
 
@@ -2484,86 +2281,7366 @@ Name    : OpenConsole
 
 Id      : 7116
 Handles : 361
-CPU     : 15.828125
+CPU     : 17.609375
 SI      : 1
 Name    : PAD.BrowserNativeMessageHost
 
 
 Id      : 18396
-Handles : 1014
-CPU     : 4.296875
+Handles : 996
+CPU     : 4.390625
 SI      : 1
 Name    : PAD.Console.Host
 
 
-Id      : 22740
-Handles : 726
-CPU     : 2.21875
+Id      : 1260
+Handles : 1974
+CPU     : 1.5625
 SI      : 1
 Name    : powershell
 
 
-Id      : 23952
-Handles : 715
+Id      : 1444
+Handles : 1142
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 2260
+Handles : 3663
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 2660
+Handles : 2636
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 2940
+Handles : 1041
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 4636
+Handles : 923
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 5420
+Handles : 1222
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 5508
+Handles : 3506
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 5984
+Handles : 1517
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 6304
+Handles : 1307
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 6676
+Handles : 2113
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 6736
+Handles : 7047
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 7200
+Handles : 6422
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 7228
+Handles : 8444
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 7284
+Handles : 6579
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 7604
+Handles : 6518
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 7640
+Handles : 8774
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 8260
+Handles : 6990
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 8536
+Handles : 3534
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 9024
+Handles : 7615
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 9092
+Handles : 1030
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 10312
+Handles : 6524
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 10468
+Handles : 8804
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 11760
+Handles : 3542
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 12412
+Handles : 6862
 CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 13216
+Handles : 6598
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 13232
+Handles : 3563
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 13992
+Handles : 1078
+CPU     : 1.328125
+SI      : 1
+Name    : powershell
+
+
+Id      : 14976
+Handles : 8330
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 14988
+Handles : 3527
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 15088
+Handles : 6777
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 15424
+Handles : 6868
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 16028
+Handles : 6567
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 16036
+Handles : 3886
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 16132
+Handles : 6343
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 16268
+Handles : 6958
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 16364
+Handles : 6451
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 16676
+Handles : 6527
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 17200
+Handles : 6595
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 17368
+Handles : 799
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 17992
+Handles : 2171
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 19516
+Handles : 6966
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 19640
+Handles : 8138
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 20020
+Handles : 2140
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 20192
+Handles : 6692
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 20256
+Handles : 8450
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 20364
+Handles : 2870
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 20436
+Handles : 833
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 20788
+Handles : 1110
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 20808
+Handles : 4238
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 20908
+Handles : 1316
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 21088
+Handles : 1249
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 21220
+Handles : 1094
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 21640
+Handles : 7570
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 21836
+Handles : 750
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 21960
+Handles : 2329
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 21988
+Handles : 2150
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 21996
+Handles : 2132
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 22164
+Handles : 4555
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 22176
+Handles : 3489
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 22180
+Handles : 2555
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 22292
+Handles : 940
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 22480
+Handles : 3897
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 22640
+Handles : 1057
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 22796
+Handles : 3507
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 23124
+Handles : 958
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 23332
+Handles : 6238
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 23384
+Handles : 1702
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 23600
+Handles : 1273
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 23792
+Handles : 7006
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 24016
+Handles : 7390
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 24164
+Handles : 3204
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 24276
+Handles : 870
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 24628
+Handles : 1230
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 24824
+Handles : 898
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 25084
+Handles : 7086
+CPU     : 1.625
+SI      : 1
+Name    : powershell
+
+
+Id      : 25360
+Handles : 4921
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 25392
+Handles : 3654
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 25492
+Handles : 1087
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 25648
+Handles : 1398
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 25752
+Handles : 5558
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 25756
+Handles : 766
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 25988
+Handles : 1494
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 26060
+Handles : 1321
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 26276
+Handles : 1318
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 26488
+Handles : 966
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 26784
+Handles : 1638
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 26816
+Handles : 747
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 26896
+Handles : 1430
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 26996
+Handles : 2798
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 27044
+Handles : 1054
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 27068
+Handles : 1359
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 27252
+Handles : 801
+CPU     : 1.328125
+SI      : 1
+Name    : powershell
+
+
+Id      : 27616
+Handles : 1134
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 27828
+Handles : 1486
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 27892
+Handles : 1174
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 27912
+Handles : 1265
+CPU     : 1.296875
+SI      : 1
+Name    : powershell
+
+
+Id      : 27984
+Handles : 2963
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 28176
+Handles : 2491
+CPU     : 1.328125
+SI      : 1
+Name    : powershell
+
+
+Id      : 28272
+Handles : 5001
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 28404
+Handles : 1198
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 28436
+Handles : 822
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 28492
+Handles : 982
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 28520
+Handles : 2727
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 28540
+Handles : 910
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 28652
+Handles : 937
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 28728
+Handles : 4310
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 28984
+Handles : 999
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 29060
+Handles : 1211
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 29140
+Handles : 1075
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 29208
+Handles : 6558
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 29232
+Handles : 7860
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 29244
+Handles : 1282
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 29352
+Handles : 1154
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 29388
+Handles : 1713
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 29408
+Handles : 854
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 29436
+Handles : 891
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 29492
+Handles : 1238
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 29508
+Handles : 1190
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 29628
+Handles : 1300
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 29644
+Handles : 1097
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 29824
+Handles : 1014
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 29828
+Handles : 4225
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 29896
+Handles : 926
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 29920
+Handles : 1336
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 30012
+Handles : 2390
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 30024
+Handles : 758
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 30040
+Handles : 1000
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 30104
+Handles : 1007
+CPU     : 1.3125
+SI      : 1
+Name    : powershell
+
+
+Id      : 30196
+Handles : 1572
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 30320
+Handles : 1166
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 30380
+Handles : 790
+CPU     : 1.3125
+SI      : 1
+Name    : powershell
+
+
+Id      : 30604
+Handles : 814
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 30692
+Handles : 1150
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 30700
+Handles : 830
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 30728
+Handles : 1366
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 30744
+Handles : 1132
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 30884
+Handles : 862
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 30976
+Handles : 1038
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 31140
+Handles : 902
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 31260
+Handles : 1219
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 31284
+Handles : 1630
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 31436
+Handles : 1123
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 31532
+Handles : 974
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 31664
+Handles : 774
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 31680
+Handles : 846
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 31788
+Handles : 2704
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 31868
+Handles : 2559
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 31940
+Handles : 2137
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 31972
+Handles : 2478
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 32384
+Handles : 1028
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 32408
+Handles : 782
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 32484
+Handles : 1350
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 32592
+Handles : 951
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 32836
+Handles : 4099
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 32940
+Handles : 873
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 33000
+Handles : 1246
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 33056
+Handles : 1758
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 33100
+Handles : 1272
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 33172
+Handles : 1187
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 33252
+Handles : 5366
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 33336
+Handles : 3382
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 33548
+Handles : 1347
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 33976
+Handles : 6095
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 34032
+Handles : 1377
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 34272
+Handles : 1406
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 34332
+Handles : 1404
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 34368
+Handles : 5622
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 34396
+Handles : 1377
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 34548
+Handles : 1391
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 34704
+Handles : 1427
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 34892
+Handles : 1443
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 35036
+Handles : 1441
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 35120
+Handles : 1705
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 35244
+Handles : 1459
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 35392
+Handles : 1469
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 35420
+Handles : 2894
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 35516
+Handles : 1895
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 35560
+Handles : 1466
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 35708
+Handles : 1474
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 35904
+Handles : 1510
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 36068
+Handles : 1558
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 36136
+Handles : 1518
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 36284
+Handles : 1526
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 36432
+Handles : 1534
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 36440
+Handles : 2236
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 36584
+Handles : 1537
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 36728
+Handles : 1551
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 36788
+Handles : 1908
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 36968
+Handles : 1606
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 36972
+Handles : 1604
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 37088
+Handles : 1577
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 37140
+Handles : 1590
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 37444
+Handles : 4817
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 37536
+Handles : 1579
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 37564
+Handles : 2999
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 37672
+Handles : 1690
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 37752
+Handles : 1620
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 37884
+Handles : 1627
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 37920
+Handles : 2062
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 37964
+Handles : 1651
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 38120
+Handles : 1654
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 38180
+Handles : 3422
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 38352
+Handles : 1671
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 38440
+Handles : 1681
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 38448
+Handles : 1847
+CPU     : 1.3125
+SI      : 1
+Name    : powershell
+
+
+Id      : 38512
+Handles : 2046
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 38536
+Handles : 1684
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 38560
+Handles : 3262
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 38572
+Handles : 1662
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 38956
+Handles : 1722
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 39108
+Handles : 1734
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 39256
+Handles : 1747
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 39288
+Handles : 3291
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 39376
+Handles : 1782
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 39508
+Handles : 1761
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 39512
+Handles : 7182
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 39664
+Handles : 1774
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 39744
+Handles : 4886
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 39796
+Handles : 4918
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 39808
+Handles : 2153
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 39856
+Handles : 1795
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 39904
+Handles : 5639
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 39928
+Handles : 1746
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 39940
+Handles : 2230
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 40020
+Handles : 1798
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 40168
+Handles : 1808
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 40176
+Handles : 2547
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 40288
+Handles : 2246
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 40304
+Handles : 5678
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 40352
+Handles : 1814
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 40512
+Handles : 1827
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 40528
+Handles : 3270
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 40724
+Handles : 1831
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 40868
+Handles : 1845
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 41028
+Handles : 1854
+CPU     : 1.3125
+SI      : 1
+Name    : powershell
+
+
+Id      : 41060
+Handles : 5577
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 41176
+Handles : 1863
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 41332
+Handles : 1875
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 41476
+Handles : 1878
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 41612
+Handles : 1966
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 41692
+Handles : 5070
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 41712
+Handles : 1886
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 41720
+Handles : 2644
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 41748
+Handles : 3401
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 41852
+Handles : 1990
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 41860
+Handles : 6414
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 41956
+Handles : 1902
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 42160
+Handles : 3137
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 42212
+Handles : 1918
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 42384
+Handles : 1982
+CPU     : 1.3125
+SI      : 1
+Name    : powershell
+
+
+Id      : 42492
+Handles : 5150
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 42540
+Handles : 1955
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 42572
+Handles : 1921
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 42724
+Handles : 1934
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 42836
+Handles : 1968
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 42872
+Handles : 1942
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 43028
+Handles : 2008
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 43040
+Handles : 2782
+CPU     : 1.296875
+SI      : 1
+Name    : powershell
+
+
+Id      : 43184
+Handles : 2038
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 43320
+Handles : 2007
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 43524
+Handles : 2014
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 43672
+Handles : 2022
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 43892
+Handles : 2049
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 43928
+Handles : 2065
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 43960
+Handles : 2030
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 43996
+Handles : 2711
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 44140
+Handles : 2068
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 44176
+Handles : 3452
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 44292
+Handles : 2092
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 44352
+Handles : 2462
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 44436
+Handles : 2095
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 44576
+Handles : 2098
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 44720
+Handles : 3051
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 44728
+Handles : 2111
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 45204
+Handles : 2206
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 45320
+Handles : 2174
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 45432
+Handles : 2215
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 45624
+Handles : 2223
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 45692
+Handles : 2187
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 45844
+Handles : 2195
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 46004
+Handles : 2371
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 46060
+Handles : 2198
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 46188
+Handles : 2356
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 46224
+Handles : 6086
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 46264
+Handles : 2249
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 46412
+Handles : 2267
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 46564
+Handles : 2270
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 46708
+Handles : 2273
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 46860
+Handles : 2286
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 47004
+Handles : 2296
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 47080
+Handles : 2374
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 47168
+Handles : 2347
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 47284
+Handles : 2297
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 47356
+Handles : 2446
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 47488
+Handles : 2382
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 47536
+Handles : 2353
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 47552
+Handles : 2408
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 47720
+Handles : 2311
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 47736
+Handles : 3630
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 47936
+Handles : 2323
+CPU     : 1.296875
+SI      : 1
+Name    : powershell
+
+
+Id      : 48080
+Handles : 2321
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 48184
+Handles : 2425
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 48268
+Handles : 2449
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 48456
+Handles : 2406
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 48500
+Handles : 2476
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 48668
+Handles : 3980
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 48680
+Handles : 2438
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 48716
+Handles : 3575
+CPU     : 1.625
+SI      : 1
+Name    : powershell
+
+
+Id      : 48720
+Handles : 7831
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 48748
+Handles : 2420
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 48880
+Handles : 7014
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 48892
+Handles : 2422
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 48928
+Handles : 3742
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 49092
+Handles : 6326
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 49284
+Handles : 2490
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 49444
+Handles : 2622
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 49500
+Handles : 2502
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 49576
+Handles : 3910
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 49648
+Handles : 2505
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 49808
+Handles : 2518
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 49940
+Handles : 5670
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 49952
+Handles : 2527
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 50104
+Handles : 2539
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 50184
+Handles : 2566
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 50344
+Handles : 2569
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 50404
+Handles : 2951
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 50488
+Handles : 2582
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 50564
+Handles : 2878
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 50568
+Handles : 3344
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 50640
+Handles : 2596
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 50676
+Handles : 3899
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 50788
+Handles : 2608
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 50936
+Handles : 2612
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 51088
+Handles : 2620
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 51284
+Handles : 2707
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 51444
+Handles : 2680
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 51500
+Handles : 2673
+CPU     : 1.328125
+SI      : 1
+Name    : powershell
+
+
+Id      : 51556
+Handles : 2718
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 51636
+Handles : 2642
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 51728
+Handles : 2681
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 51776
+Handles : 2977
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 51900
+Handles : 2660
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 52016
+Handles : 2662
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 52332
+Handles : 2734
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 52472
+Handles : 2747
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 52544
+Handles : 2892
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 52608
+Handles : 2790
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 52684
+Handles : 2751
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 52696
+Handles : 3409
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 52816
+Handles : 5910
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 52828
+Handles : 2759
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 52968
+Handles : 2766
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 53000
+Handles : 4049
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 53116
+Handles : 2774
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 53160
+Handles : 2797
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 53364
+Handles : 2815
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 53436
+Handles : 2862
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 53484
+Handles : 4062
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 53580
+Handles : 2822
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 53612
+Handles : 3484
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 53732
+Handles : 4863
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 53756
+Handles : 2830
+CPU     : 1.328125
+SI      : 1
+Name    : powershell
+
+
+Id      : 53904
+Handles : 2838
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 53912
+Handles : 3878
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 53936
+Handles : 4124
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 54052
+Handles : 2846
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 54192
+Handles : 2859
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 54208
+Handles : 3518
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 54256
+Handles : 3211
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 54352
+Handles : 2907
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 54496
+Handles : 2916
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 54644
+Handles : 2918
+CPU     : 1.328125
+SI      : 1
+Name    : powershell
+
+
+Id      : 54784
+Handles : 2931
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 54964
+Handles : 3470
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 55000
+Handles : 2935
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 55144
+Handles : 2942
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 55188
+Handles : 2979
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 55252
+Handles : 4190
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 55276
+Handles : 2961
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 55400
+Handles : 4806
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 55444
+Handles : 5590
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 55476
+Handles : 3486
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 55520
+Handles : 4121
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 55676
+Handles : 3043
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 55796
+Handles : 4207
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 55920
+Handles : 3006
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 56048
+Handles : 2990
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 56216
+Handles : 3031
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 56284
+Handles : 3020
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 56316
+Handles : 3022
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 56408
+Handles : 3054
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 56468
+Handles : 3399
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 56540
+Handles : 3107
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 56612
+Handles : 3067
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 56648
+Handles : 4326
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 56672
+Handles : 3473
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 56760
+Handles : 3071
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 56912
+Handles : 3106
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 56936
+Handles : 3086
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 57048
+Handles : 3089
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 57132
+Handles : 3089
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 57240
+Handles : 3123
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 57392
+Handles : 3180
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 57452
+Handles : 3183
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 57516
+Handles : 3166
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 57628
+Handles : 3134
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 57780
+Handles : 3138
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 57944
+Handles : 3186
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 58080
+Handles : 3150
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 58224
+Handles : 3158
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 58260
+Handles : 5175
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 58424
+Handles : 3209
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 58432
+Handles : 7697
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 58580
+Handles : 3217
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 58724
+Handles : 3230
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 58864
+Handles : 3243
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 58924
+Handles : 3289
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 59084
+Handles : 3251
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 59100
+Handles : 3723
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 59236
+Handles : 3249
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 59340
+Handles : 3550
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 59428
+Handles : 3454
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 59528
+Handles : 3294
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 59572
+Handles : 4830
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 59672
+Handles : 3297
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 59792
+Handles : 4323
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 59816
+Handles : 4155
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 59828
+Handles : 3353
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 59836
+Handles : 3438
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 59884
+Handles : 3311
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 60040
+Handles : 3318
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 60184
+Handles : 3326
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 60216
+Handles : 4838
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 60348
+Handles : 3351
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 60364
+Handles : 4168
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 60384
+Handles : 4526
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 60476
+Handles : 3350
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 60556
+Handles : 4772
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 60644
+Handles : 3961
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 60676
+Handles : 4911
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 60708
+Handles : 3366
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 60916
+Handles : 3364
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 60956
+Handles : 3734
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 61100
+Handles : 3395
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 61108
+Handles : 6758
+CPU     : 1.59375
+SI      : 1
+Name    : powershell
+
+
+Id      : 61308
+Handles : 3430
+CPU     : 1.59375
+SI      : 1
+Name    : powershell
+
+
+Id      : 61612
+Handles : 6108
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 61816
+Handles : 3979
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 61888
+Handles : 3566
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 62040
+Handles : 7561
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 62120
+Handles : 3814
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 62260
+Handles : 7382
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 62816
+Handles : 3590
+CPU     : 1.59375
+SI      : 1
+Name    : powershell
+
+
+Id      : 62924
+Handles : 6062
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 62936
+Handles : 6894
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 63312
+Handles : 3588
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 63544
+Handles : 3624
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 63672
+Handles : 5062
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 63756
+Handles : 3638
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 63852
+Handles : 3598
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 63876
+Handles : 3665
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 64068
+Handles : 8617
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 64108
+Handles : 3596
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 64320
+Handles : 3610
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 64384
+Handles : 3642
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 64640
+Handles : 3711
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 64656
+Handles : 5302
+CPU     : 1.71875
+SI      : 1
+Name    : powershell
+
+
+Id      : 64812
+Handles : 3678
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 65100
+Handles : 3726
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 65132
+Handles : 4147
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 65188
+Handles : 3686
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 65336
+Handles : 3694
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 65404
+Handles : 3827
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 65480
+Handles : 3703
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 65712
+Handles : 3771
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 65768
+Handles : 3802
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 65836
+Handles : 5231
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 65868
+Handles : 3774
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 65908
+Handles : 3798
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 66004
+Handles : 3750
+CPU     : 1.609375
+SI      : 1
+Name    : powershell
+
+
+Id      : 66260
+Handles : 3758
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 66392
+Handles : 3782
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 66400
+Handles : 4695
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 66468
+Handles : 3790
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 66732
+Handles : 3825
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 66760
+Handles : 5243
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 66800
+Handles : 3982
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 66832
+Handles : 4129
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 66880
+Handles : 3843
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 66888
+Handles : 6070
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 67024
+Handles : 3851
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 67172
+Handles : 3844
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 67396
+Handles : 3858
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 67424
+Handles : 5252
+CPU     : 1.359375
+SI      : 1
+Name    : powershell
+
+
+Id      : 67428
+Handles : 5424
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 67508
+Handles : 4537
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 67544
+Handles : 3870
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 67732
+Handles : 3913
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 67936
+Handles : 3926
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 68080
+Handles : 3935
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 68240
+Handles : 3943
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 68396
+Handles : 3955
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 68560
+Handles : 3958
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 68572
+Handles : 5550
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 68700
+Handles : 4003
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 68744
+Handles : 4046
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 68836
+Handles : 4390
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 68908
+Handles : 4011
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 69068
+Handles : 4012
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 69220
+Handles : 4027
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 69392
+Handles : 4030
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 69424
+Handles : 5566
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 69544
+Handles : 4038
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 69700
+Handles : 4075
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 69860
+Handles : 4073
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 69984
+Handles : 5926
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 70024
+Handles : 4086
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 70376
+Handles : 4115
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 70544
+Handles : 4103
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 70784
+Handles : 4172
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 70920
+Handles : 4398
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 70944
+Handles : 5406
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 71176
+Handles : 4169
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 71324
+Handles : 4198
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 71476
+Handles : 4187
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 71540
+Handles : 4214
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 71592
+Handles : 4217
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 71728
+Handles : 4294
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 71768
+Handles : 4242
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 71776
+Handles : 4982
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 71864
+Handles : 4670
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 71904
+Handles : 5737
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 71936
+Handles : 4259
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 72104
+Handles : 4268
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 72256
+Handles : 4275
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 72424
+Handles : 5835
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 72492
+Handles : 4303
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 72496
+Handles : 4273
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 72648
+Handles : 4281
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 72832
+Handles : 7712
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 72844
+Handles : 4334
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 73008
+Handles : 4342
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 73044
+Handles : 5839
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 73152
+Handles : 7634
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 73164
+Handles : 4355
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 73208
+Handles : 4375
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 73320
+Handles : 4377
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 73400
+Handles : 4351
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 73504
+Handles : 4619
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 73568
+Handles : 4376
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 73684
+Handles : 6247
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 73720
+Handles : 5310
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 73796
+Handles : 4412
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 73964
+Handles : 4414
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 74120
+Handles : 4518
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 74144
+Handles : 4507
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 74188
+Handles : 4428
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 74340
+Handles : 4435
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 74348
+Handles : 5126
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 74496
+Handles : 4439
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 74632
+Handles : 4447
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 74664
+Handles : 5935
+CPU     : 1.59375
+SI      : 1
+Name    : powershell
+
+
+Id      : 74676
+Handles : 8055
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 74680
+Handles : 5158
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 74772
+Handles : 4510
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 74848
+Handles : 4459
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 75004
+Handles : 4458
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 75108
+Handles : 5390
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 75160
+Handles : 4476
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 75272
+Handles : 5494
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 75300
+Handles : 6348
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 75324
+Handles : 4478
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 75480
+Handles : 4539
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 75512
+Handles : 5766
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 75548
+Handles : 4487
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 75672
+Handles : 5646
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 75704
+Handles : 4494
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 75788
+Handles : 4686
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 75944
+Handles : 4593
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 76064
+Handles : 4595
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 76116
+Handles : 4622
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 76136
+Handles : 4558
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 76236
+Handles : 6510
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 76292
+Handles : 4611
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 76300
+Handles : 5982
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 76320
+Handles : 4566
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 76412
+Handles : 4587
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 76576
+Handles : 5846
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 76684
+Handles : 4580
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 76816
+Handles : 4630
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 76972
+Handles : 4638
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 77004
+Handles : 4667
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 77152
+Handles : 4636
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 77312
+Handles : 4654
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 77328
+Handles : 5327
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 77372
+Handles : 7245
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 77672
+Handles : 4678
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 77716
+Handles : 4759
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 77912
+Handles : 8490
+CPU     : 1.640625
+SI      : 1
+Name    : powershell
+
+
+Id      : 77928
+Handles : 6870
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 78020
+Handles : 4710
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 78324
+Handles : 4742
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 78484
+Handles : 4721
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 78512
+Handles : 4703
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 78616
+Handles : 5460
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 78620
+Handles : 4723
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 78632
+Handles : 4998
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 78756
+Handles : 4750
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 78824
+Handles : 4734
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 78996
+Handles : 4774
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 79140
+Handles : 5462
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 79536
+Handles : 5486
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 79572
+Handles : 4798
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 79604
+Handles : 4791
+CPU     : 1.34375
+SI      : 1
+Name    : powershell
+
+
+Id      : 79748
+Handles : 4783
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 79812
+Handles : 4820
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 80060
+Handles : 8240
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 80116
+Handles : 6249
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 80152
+Handles : 4902
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 80160
+Handles : 5574
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 80164
+Handles : 5089
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 80264
+Handles : 4875
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 80344
+Handles : 6703
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 80348
+Handles : 4846
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 80516
+Handles : 4849
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 80576
+Handles : 6582
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 80596
+Handles : 4873
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 80888
+Handles : 4894
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 81016
+Handles : 4929
+CPU     : 1.296875
+SI      : 1
+Name    : powershell
+
+
+Id      : 81132
+Handles : 5000
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 81164
+Handles : 4948
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 81320
+Handles : 4955
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 81336
+Handles : 5662
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 81356
+Handles : 6435
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 81472
+Handles : 4958
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 81628
+Handles : 4962
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 81800
+Handles : 4974
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 81860
+Handles : 5318
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 81980
+Handles : 5009
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 82128
+Handles : 5022
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 82252
+Handles : 5254
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 82300
+Handles : 5030
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 82484
+Handles : 5043
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 82636
+Handles : 5051
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 82796
+Handles : 5079
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 82808
+Handles : 8950
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 82856
+Handles : 5054
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 82868
+Handles : 5806
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 82892
+Handles : 7863
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 82908
+Handles : 5086
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 83060
+Handles : 5107
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 83172
+Handles : 5166
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 83220
+Handles : 5116
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 83356
+Handles : 5129
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 83436
+Handles : 5118
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 83464
+Handles : 6555
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 83816
+Handles : 5153
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 84168
+Handles : 5182
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 84320
+Handles : 5200
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 84328
+Handles : 5855
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 84484
+Handles : 5198
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 84644
+Handles : 5202
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 84796
+Handles : 5219
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 84972
+Handles : 5227
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 85156
+Handles : 5262
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 85320
+Handles : 5270
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 85496
+Handles : 7173
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 85504
+Handles : 5278
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 85656
+Handles : 5282
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 85804
+Handles : 5295
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 85836
+Handles : 6775
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 85976
+Handles : 6694
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 86224
+Handles : 5363
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 86236
+Handles : 5329
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 86392
+Handles : 5342
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 86608
+Handles : 5400
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 86680
+Handles : 5375
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 86712
+Handles : 7217
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 86772
+Handles : 5350
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 86952
+Handles : 6766
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 86980
+Handles : 5377
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 87156
+Handles : 5417
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 87308
+Handles : 5435
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 87480
+Handles : 8042
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 87532
+Handles : 5441
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 87560
+Handles : 6799
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 87688
+Handles : 5446
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 87844
+Handles : 5459
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 87972
+Handles : 5479
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 88184
+Handles : 5507
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 88192
+Handles : 6166
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 88344
+Handles : 5505
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 88492
+Handles : 5518
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 88644
+Handles : 5528
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 88660
+Handles : 6222
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 88756
+Handles : 5902
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 88808
+Handles : 5539
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 88960
+Handles : 5542
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 88976
+Handles : 6225
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 89192
+Handles : 5598
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 89368
+Handles : 5596
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 89624
+Handles : 5630
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 89672
+Handles : 7207
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 89720
+Handles : 5654
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 89804
+Handles : 5614
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 89984
+Handles : 7151
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 90120
+Handles : 5681
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 90180
+Handles : 6807
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 90236
+Handles : 6649
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 90296
+Handles : 5694
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 90336
+Handles : 7190
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 90372
+Handles : 8756
+CPU     : 1.609375
+SI      : 1
+Name    : powershell
+
+
+Id      : 90456
+Handles : 6305
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 90460
+Handles : 5697
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 90564
+Handles : 5751
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 90608
+Handles : 5710
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 90616
+Handles : 6502
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 90768
+Handles : 5718
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 90916
+Handles : 5727
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 90960
+Handles : 5753
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 91068
+Handles : 5734
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 91084
+Handles : 7198
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 91208
+Handles : 5769
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 91356
+Handles : 5777
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 91584
+Handles : 8605
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 91616
+Handles : 5822
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 91720
+Handles : 7298
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 91788
+Handles : 7692
+CPU     : 1.609375
+SI      : 1
+Name    : powershell
+
+
+Id      : 91860
+Handles : 5809
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 91920
+Handles : 5790
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 92072
+Handles : 5799
+CPU     : 1.375
+SI      : 1
+Name    : powershell
+
+
+Id      : 92252
+Handles : 6975
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 92264
+Handles : 5863
+CPU     : 1.609375
+SI      : 1
+Name    : powershell
+
+
+Id      : 92420
+Handles : 5875
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 92568
+Handles : 6334
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 92636
+Handles : 5874
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 92796
+Handles : 5886
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 92952
+Handles : 5894
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 92964
+Handles : 7230
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 93088
+Handles : 8509
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 93164
+Handles : 5918
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 93300
+Handles : 7415
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 93356
+Handles : 5948
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 93508
+Handles : 5998
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 93572
+Handles : 5966
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 93664
+Handles : 5950
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 93808
+Handles : 5974
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 93816
+Handles : 6006
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 93964
+Handles : 5958
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 94044
+Handles : 6670
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 94192
+Handles : 5990
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 94300
+Handles : 6025
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 94468
+Handles : 6028
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 94536
+Handles : 6083
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 94632
+Handles : 6035
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 94788
+Handles : 6038
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 94824
+Handles : 8220
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 94848
+Handles : 6401
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 94948
+Handles : 6042
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 95104
+Handles : 6065
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 95292
+Handles : 6105
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 95628
+Handles : 6147
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 95796
+Handles : 6155
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 95804
+Handles : 6886
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 95860
+Handles : 6118
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 95904
+Handles : 6159
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 96080
+Handles : 6132
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 96240
+Handles : 6129
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 96328
+Handles : 6179
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 96432
+Handles : 6547
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 96492
+Handles : 6183
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 96508
+Handles : 8157
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 96728
+Handles : 6190
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 96736
+Handles : 7925
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 96880
+Handles : 6198
+CPU     : 1.40625
+SI      : 1
+Name    : powershell
+
+
+Id      : 97036
+Handles : 6668
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 97068
+Handles : 6206
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 97224
+Handles : 6215
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 97372
+Handles : 6262
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 97496
+Handles : 6313
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 97536
+Handles : 6270
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 97684
+Handles : 6278
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 97696
+Handles : 6983
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 97720
+Handles : 7720
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 97844
+Handles : 6287
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 98008
+Handles : 6294
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 98016
+Handles : 6960
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 98168
+Handles : 6292
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 98212
+Handles : 7788
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 98228
+Handles : 8694
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 98292
+Handles : 7062
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 98360
+Handles : 6363
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 98520
+Handles : 6361
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 98644
+Handles : 8217
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 98672
+Handles : 6379
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 98792
+Handles : 6435
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 98904
+Handles : 6382
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 98932
+Handles : 7721
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 99076
+Handles : 6390
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 99232
+Handles : 6393
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 99548
+Handles : 6486
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 99692
+Handles : 6494
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 99840
+Handles : 6449
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 99980
+Handles : 6462
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 100016
+Handles : 7922
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 100132
+Handles : 6470
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 100276
+Handles : 6474
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 100292
+Handles : 7215
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 100408
+Handles : 6606
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 100556
+Handles : 6615
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 100564
+Handles : 7299
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 100700
+Handles : 6617
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 100848
+Handles : 6631
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 101004
+Handles : 6679
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 101012
+Handles : 8492
+CPU     : 1.59375
+SI      : 1
+Name    : powershell
+
+
+Id      : 101064
+Handles : 6638
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 101184
+Handles : 6788
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 101212
+Handles : 6646
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 101464
+Handles : 6706
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 101536
+Handles : 8580
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 101572
+Handles : 7839
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 101616
+Handles : 6729
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 101784
+Handles : 6721
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 101944
+Handles : 6735
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 101960
+Handles : 7399
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 102004
+Handles : 8311
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 102092
+Handles : 6742
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 102240
+Handles : 6750
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 102256
+Handles : 7406
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 102324
+Handles : 8234
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 102360
+Handles : 6855
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 102364
+Handles : 8108
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 102408
+Handles : 6814
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 102584
+Handles : 6828
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 102596
+Handles : 7468
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 102736
+Handles : 8149
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 102808
+Handles : 6820
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 102908
+Handles : 7078
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 102980
+Handles : 6838
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 103096
+Handles : 8677
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 103104
+Handles : 6993
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 103248
+Handles : 6852
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 103560
+Handles : 8759
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 103576
+Handles : 8010
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 103612
+Handles : 6907
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 103688
+Handles : 7076
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 103784
+Handles : 6910
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 103812
+Handles : 8966
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 103944
+Handles : 6918
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 104064
+Handles : 7167
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 104104
+Handles : 6931
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 104164
+Handles : 8782
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 104268
+Handles : 6934
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 104432
+Handles : 6943
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 104588
+Handles : 8127
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 104660
+Handles : 7318
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 104792
+Handles : 7022
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 104912
+Handles : 7286
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 104944
+Handles : 7100
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 105052
+Handles : 7055
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 105096
+Handles : 7030
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 105408
+Handles : 7038
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 105488
+Handles : 7163
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 105528
+Handles : 7433
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 105568
+Handles : 7107
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 105600
+Handles : 8564
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 105744
+Handles : 7106
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 105896
+Handles : 7118
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 105908
+Handles : 7802
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 106048
+Handles : 7126
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 106108
+Handles : 7463
+CPU     : 1.625
+SI      : 1
+Name    : powershell
+
+
+Id      : 106200
+Handles : 7129
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 106352
+Handles : 7143
+CPU     : 1.734375
+SI      : 1
+Name    : powershell
+
+
+Id      : 106384
+Handles : 8593
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 106652
+Handles : 7246
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 106808
+Handles : 7260
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 106984
+Handles : 7262
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 107144
+Handles : 7271
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 107212
+Handles : 7562
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 107376
+Handles : 7279
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 107420
+Handles : 7310
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 107444
+Handles : 8436
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 107600
+Handles : 7327
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 108080
+Handles : 8589
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 108116
+Handles : 7340
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 108276
+Handles : 7369
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 108284
+Handles : 7347
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 108456
+Handles : 7350
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 108524
+Handles : 7470
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 108604
+Handles : 8722
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 108780
+Handles : 8156
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 108904
+Handles : 7353
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 109220
+Handles : 7454
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 109356
+Handles : 7371
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 109468
+Handles : 7486
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 109732
+Handles : 8125
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 109876
+Handles : 7446
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 109904
+Handles : 8766
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 110004
+Handles : 7914
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 110216
+Handles : 7624
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 110244
+Handles : 7427
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 110420
+Handles : 7437
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 110780
+Handles : 7489
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 110940
+Handles : 7502
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 111116
+Handles : 7520
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 111284
+Handles : 7518
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 111420
+Handles : 8886
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 111480
+Handles : 7548
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 111508
+Handles : 7531
+CPU     : 1.6875
+SI      : 1
+Name    : powershell
+
+
+Id      : 111516
+Handles : 8205
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 111548
+Handles : 8953
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 111604
+Handles : 7540
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 111668
+Handles : 7604
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 111840
+Handles : 7580
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 112028
+Handles : 7610
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 112180
+Handles : 7587
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 112288
+Handles : 8383
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 112292
+Handles : 7764
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 112500
+Handles : 7673
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 112540
+Handles : 7596
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 112556
+Handles : 9046
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 112608
+Handles : 7845
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 112700
+Handles : 8013
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 112776
+Handles : 7639
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 112936
+Handles : 7652
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 112996
+Handles : 7999
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 113160
+Handles : 7648
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 113324
+Handles : 7668
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 113488
+Handles : 7671
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 113784
+Handles : 7725
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 113952
+Handles : 7740
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 114112
+Handles : 8575
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 114164
+Handles : 7797
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 114384
+Handles : 7768
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 114540
+Handles : 7748
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 114712
+Handles : 8468
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 114840
+Handles : 7812
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 115004
+Handles : 7820
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 115012
+Handles : 8499
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 115196
+Handles : 7782
+CPU     : 1.625
+SI      : 1
+Name    : powershell
+
+
+Id      : 115284
+Handles : 7826
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 115448
+Handles : 7778
+CPU     : 1.625
+SI      : 1
+Name    : powershell
+
+
+Id      : 115596
+Handles : 7983
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 115860
+Handles : 7879
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 116028
+Handles : 7889
+CPU     : 1.390625
+SI      : 1
+Name    : powershell
+
+
+Id      : 116224
+Handles : 7892
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 116388
+Handles : 7889
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 116548
+Handles : 7908
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 116740
+Handles : 7950
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 116904
+Handles : 7946
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 117068
+Handles : 7956
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 117228
+Handles : 7970
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 117288
+Handles : 8451
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 117400
+Handles : 7970
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 117632
+Handles : 7981
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 117840
+Handles : 8018
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 118004
+Handles : 8028
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 118176
+Handles : 8114
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 118232
+Handles : 8052
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 118320
+Handles : 8691
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 118364
+Handles : 8871
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 118532
+Handles : 8031
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 118736
+Handles : 8943
+CPU     : 1.59375
+SI      : 1
+Name    : powershell
+
+
+Id      : 118912
+Handles : 8095
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 119160
+Handles : 8072
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 119272
+Handles : 8846
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 119348
+Handles : 8081
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 119524
+Handles : 8075
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 119704
+Handles : 8085
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 119984
+Handles : 8873
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 120016
+Handles : 8173
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 120184
+Handles : 8186
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 120252
+Handles : 8316
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 120344
+Handles : 8186
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 120512
+Handles : 8201
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 120644
+Handles : 8276
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 120676
+Handles : 8204
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 120900
+Handles : 8252
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 121088
+Handles : 8282
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 121172
+Handles : 9015
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 121204
+Handles : 8258
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 121348
+Handles : 8293
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 121460
+Handles : 8329
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 121508
+Handles : 8268
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 121644
+Handles : 8301
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 121976
+Handles : 8345
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 122140
+Handles : 8348
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 122300
+Handles : 8354
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 122640
+Handles : 8364
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 122784
+Handles : 8426
+CPU     : 1.59375
+SI      : 1
+Name    : powershell
+
+
+Id      : 122876
+Handles : 8377
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 123016
+Handles : 8474
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 123084
+Handles : 8383
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 123244
+Handles : 8384
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 123404
+Handles : 8402
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 123560
+Handles : 8412
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 123720
+Handles : 8425
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 123932
+Handles : 8795
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 123972
+Handles : 8517
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 124124
+Handles : 8517
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 124304
+Handles : 8528
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 124472
+Handles : 8545
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 124636
+Handles : 8541
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 124824
+Handles : 8556
+CPU     : 1.59375
+SI      : 1
+Name    : powershell
+
+
+Id      : 124996
+Handles : 8618
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 125132
+Handles : 8672
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 125216
+Handles : 8628
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 125340
+Handles : 8673
+CPU     : 1.4375
+SI      : 1
+Name    : powershell
+
+
+Id      : 125388
+Handles : 8636
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 125556
+Handles : 8642
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 125716
+Handles : 8647
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 125884
+Handles : 8656
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 126052
+Handles : 8742
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 126280
+Handles : 8744
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 126496
+Handles : 8702
+CPU     : 1.578125
+SI      : 1
+Name    : powershell
+
+
+Id      : 126668
+Handles : 8705
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 126828
+Handles : 8718
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 127096
+Handles : 8811
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 127260
+Handles : 8834
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 127336
+Handles : 8872
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 127340
+Handles : 8849
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 127512
+Handles : 8822
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 127688
+Handles : 8825
+CPU     : 1.46875
+SI      : 1
+Name    : powershell
+
+
+Id      : 127856
+Handles : 8838
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 128148
+Handles : 8895
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 128324
+Handles : 8898
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 128460
+Handles : 8969
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 128492
+Handles : 8910
+CPU     : 1.421875
+SI      : 1
+Name    : powershell
+
+
+Id      : 128568
+Handles : 9016
+CPU     : 6.046875
+SI      : 1
+Name    : powershell
+
+
+Id      : 128664
+Handles : 8918
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 128824
+Handles : 8926
+CPU     : 1.453125
+SI      : 1
+Name    : powershell
+
+
+Id      : 128984
+Handles : 8934
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 129120
+Handles : 8982
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 129284
+Handles : 8991
+CPU     : 1.5
+SI      : 1
+Name    : powershell
+
+
+Id      : 129456
+Handles : 8998
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 129808
+Handles : 9001
+CPU     : 1.53125
+SI      : 1
+Name    : powershell
+
+
+Id      : 130244
+Handles : 9023
+CPU     : 1.5625
+SI      : 1
+Name    : powershell
+
+
+Id      : 130848
+Handles : 9036
+CPU     : 1.484375
+SI      : 1
+Name    : powershell
+
+
+Id      : 131020
+Handles : 9038
+CPU     : 1.515625
+SI      : 1
+Name    : powershell
+
+
+Id      : 131220
+Handles : 614
+CPU     : 1.546875
+SI      : 1
+Name    : powershell
+
+
+Id      : 131476
+Handles : 643
+CPU     : 1.8125
+SI      : 1
+Name    : powershell
+
+
+Id      : 132944
+Handles : 1374
+CPU     : 6.0625
 SI      : 1
 Name    : powershell
 
 
 Id      : 17568
 Handles : 463
-CPU     : 0.359375
+CPU     : 0.375
 SI      : 1
 Name    : PowerSwitcher.TrayApp
 
 
 Id      : 13288
 Handles : 640
-CPU     : 1.25
+CPU     : 1.46875
 SI      : 1
 Name    : PowerToys
 
 
 Id      : 14028
 Handles : 204
-CPU     : 30.453125
+CPU     : 35.03125
 SI      : 1
 Name    : PowerToys.AlwaysOnTop
 
 
 Id      : 14020
-Handles : 403
-CPU     : 0.40625
+Handles : 523
+CPU     : 0.453125
 SI      : 1
 Name    : PowerToys.Awake
 
 
 Id      : 13412
 Handles : 369
-CPU     : 28.78125
+CPU     : 32.25
 SI      : 1
 Name    : PowerToys.FancyZones
 
 
 Id      : 13440
 Handles : 132
-CPU     : 0.296875
+CPU     : 0.34375
 SI      : 1
 Name    : PowerToys.KeyboardManagerEngine
 
 
 Id      : 5536
-Handles : 239
+Handles : 237
 CPU     :
 SI      : 0
 Name    : ppmpanel
-
-
-Id      : 15416
-Handles : 1214
-CPU     : 4.96875
-SI      : 1
-Name    : pwsh
 
 
 Id      : 24152
@@ -2588,8 +9665,8 @@ Name    : Registry
 
 
 Id      : 12928
-Handles : 1353
-CPU     : 12.015625
+Handles : 1432
+CPU     : 16.046875
 SI      : 1
 Name    : Ring
 
@@ -2630,8 +9707,8 @@ Name    : RuntimeBroker
 
 
 Id      : 10920
-Handles : 824
-CPU     : 1.828125
+Handles : 795
+CPU     : 2.03125
 SI      : 1
 Name    : RuntimeBroker
 
@@ -2646,13 +9723,6 @@ Name    : RuntimeBroker
 Id      : 16816
 Handles : 139
 CPU     : 0.03125
-SI      : 1
-Name    : RuntimeBroker
-
-
-Id      : 18828
-Handles : 393
-CPU     : 0.09375
 SI      : 1
 Name    : RuntimeBroker
 
@@ -2672,8 +9742,8 @@ Name    : RuntimeBroker
 
 
 Id      : 10680
-Handles : 1395
-CPU     : 5.125
+Handles : 1434
+CPU     : 5.71875
 SI      : 1
 Name    : SearchHost
 
@@ -2693,7 +9763,7 @@ Name    : SecurityHealthService
 
 
 Id      : 1136
-Handles : 877
+Handles : 1929
 CPU     :
 SI      : 0
 Name    : services
@@ -2714,8 +9784,8 @@ Name    : ShellExperienceHost
 
 
 Id      : 16232
-Handles : 2503
-CPU     : 1213.59375
+Handles : 2507
+CPU     : 1312.1875
 SI      : 1
 Name    : SignalRgb
 
@@ -2728,8 +9798,8 @@ Name    : SignalRgbLauncher
 
 
 Id      : 5304
-Handles : 703
-CPU     : 1.734375
+Handles : 710
+CPU     : 1.875
 SI      : 1
 Name    : sihost
 
@@ -2755,23 +9825,23 @@ SI      : 0
 Name    : spoolsv
 
 
-Id      : 25336
-Handles : 294
-CPU     : 0.25
+Id      : 131736
+Handles : 307
+CPU     : 0.296875
 SI      : 1
 Name    : SqlToolsResourceProviderService
 
 
 Id      : 10672
-Handles : 761
-CPU     : 0.84375
+Handles : 771
+CPU     : 1.03125
 SI      : 1
 Name    : StartMenuExperienceHost
 
 
 Id      : 15504
-Handles : 972
-CPU     : 62.046875
+Handles : 1065
+CPU     : 95.484375
 SI      : 1
 Name    : steam
 
@@ -2798,14 +9868,14 @@ Name    : steamwebhelper
 
 
 Id      : 15740
-Handles : 714
-CPU     : 2.828125
+Handles : 711
+CPU     : 2.9375
 SI      : 1
 Name    : steamwebhelper
 
 
 Id      : 16512
-Handles : 367
+Handles : 361
 CPU     : 0.109375
 SI      : 1
 Name    : steamwebhelper
@@ -2827,13 +9897,13 @@ Name    : steamwebhelper
 
 Id      : 17896
 Handles : 535
-CPU     : 2.515625
+CPU     : 2.546875
 SI      : 1
 Name    : steamwebhelper
 
 
 Id      : 944
-Handles : 162
+Handles : 1198
 CPU     :
 SI      : 0
 Name    : svchost
@@ -2841,41 +9911,41 @@ Name    : svchost
 
 Id      : 1176
 Handles : 436
-CPU     : 5.328125
+CPU     : 5.84375
 SI      : 1
 Name    : svchost
 
 
 Id      : 1272
-Handles : 1808
+Handles : 1801
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 1376
-Handles : 1521
+Handles : 5663
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 1416
-Handles : 358
+Handles : 355
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 1524
-Handles : 860
+Handles : 866
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 1612
-Handles : 495
+Handles : 494
 CPU     :
 SI      : 0
 Name    : svchost
@@ -2931,7 +10001,7 @@ Name    : svchost
 
 
 Id      : 2000
-Handles : 266
+Handles : 262
 CPU     :
 SI      : 0
 Name    : svchost
@@ -2952,14 +10022,14 @@ Name    : svchost
 
 
 Id      : 2308
-Handles : 337
+Handles : 1368
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 2332
-Handles : 424
+Handles : 1466
 CPU     :
 SI      : 0
 Name    : svchost
@@ -2973,42 +10043,42 @@ Name    : svchost
 
 
 Id      : 2384
-Handles : 434
+Handles : 438
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 2536
-Handles : 232
+Handles : 235
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 2612
-Handles : 208
+Handles : 1248
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 2720
-Handles : 176
+Handles : 175
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 2768
-Handles : 427
+Handles : 442
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 2788
-Handles : 335
+Handles : 2415
 CPU     :
 SI      : 0
 Name    : svchost
@@ -3036,7 +10106,7 @@ Name    : svchost
 
 
 Id      : 2964
-Handles : 163
+Handles : 161
 CPU     :
 SI      : 0
 Name    : svchost
@@ -3057,28 +10127,28 @@ Name    : svchost
 
 
 Id      : 3284
-Handles : 539
+Handles : 538
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 3464
-Handles : 245
+Handles : 243
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 3488
-Handles : 214
+Handles : 212
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 3536
-Handles : 316
+Handles : 317
 CPU     :
 SI      : 0
 Name    : svchost
@@ -3106,7 +10176,7 @@ Name    : svchost
 
 
 Id      : 4144
-Handles : 441
+Handles : 452
 CPU     :
 SI      : 0
 Name    : svchost
@@ -3134,14 +10204,14 @@ Name    : svchost
 
 
 Id      : 4912
-Handles : 514
+Handles : 518
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 4936
-Handles : 263
+Handles : 262
 CPU     :
 SI      : 0
 Name    : svchost
@@ -3190,14 +10260,14 @@ Name    : svchost
 
 
 Id      : 5408
-Handles : 653
+Handles : 673
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 5432
-Handles : 359
+Handles : 366
 CPU     :
 SI      : 0
 Name    : svchost
@@ -3239,7 +10309,7 @@ Name    : svchost
 
 
 Id      : 6056
-Handles : 247
+Handles : 246
 CPU     :
 SI      : 0
 Name    : svchost
@@ -3253,8 +10323,8 @@ Name    : svchost
 
 
 Id      : 7652
-Handles : 578
-CPU     : 1.328125
+Handles : 576
+CPU     : 1.34375
 SI      : 1
 Name    : svchost
 
@@ -3296,7 +10366,7 @@ Name    : svchost
 
 Id      : 8288
 Handles : 357
-CPU     : 5.484375
+CPU     : 6.15625
 SI      : 1
 Name    : svchost
 
@@ -3323,22 +10393,22 @@ Name    : svchost
 
 
 Id      : 9296
-Handles : 300
-CPU     : 0.125
+Handles : 294
+CPU     : 0.140625
 SI      : 1
 Name    : svchost
 
 
 Id      : 9360
-Handles : 380
+Handles : 393
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 9572
-Handles : 457
-CPU     : 0.28125
+Handles : 430
+CPU     : 0.296875
 SI      : 1
 Name    : svchost
 
@@ -3351,14 +10421,14 @@ Name    : svchost
 
 
 Id      : 11244
-Handles : 217
-CPU     : 0.125
+Handles : 225
+CPU     : 0.140625
 SI      : 1
 Name    : svchost
 
 
 Id      : 12984
-Handles : 257
+Handles : 253
 CPU     :
 SI      : 0
 Name    : svchost
@@ -3378,16 +10448,37 @@ SI      : 0
 Name    : svchost
 
 
+Id      : 25184
+Handles : 150
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 63308
+Handles : 224
+CPU     :
+SI      : 0
+Name    : svchost
+
+
+Id      : 134096
+Handles : 110
+CPU     :
+SI      : 0
+Name    : svchost
+
+
 Id      : 4
-Handles : 6881
+Handles : 21770
 CPU     :
 SI      : 0
 Name    : System
 
 
 Id      : 22620
-Handles : 636
-CPU     : 5.5625
+Handles : 623
+CPU     : 5.578125
 SI      : 1
 Name    : System Ninja
 
@@ -3407,8 +10498,15 @@ Name    : SystemSettingsAdminFlows
 
 
 Id      : 8916
-Handles : 309
-CPU     : 0.828125
+Handles : 304
+CPU     : 1.0625
+SI      : 1
+Name    : taskhostw
+
+
+Id      : 145000
+Handles : 174
+CPU     : 0.140625
 SI      : 1
 Name    : taskhostw
 
@@ -3421,8 +10519,8 @@ Name    : TbtP2pShortcutService
 
 
 Id      : 15044
-Handles : 1466
-CPU     : 2.546875
+Handles : 1457
+CPU     : 3.03125
 SI      : 1
 Name    : TextInputHost
 
@@ -3442,8 +10540,8 @@ Name    : TiWorker
 
 
 Id      : 17392
-Handles : 531
-CPU     : 50.046875
+Handles : 533
+CPU     : 57.25
 SI      : 1
 Name    : TranslucentTB
 
@@ -3463,57 +10561,22 @@ Name    : unsecapp
 
 
 Id      : 7828
-Handles : 254
+Handles : 253
 CPU     :
 SI      : 0
 Name    : vds
 
 
 Id      : 16060
-Handles : 460
-CPU     : 18.40625
+Handles : 625
+CPU     : 22.40625
 SI      : 1
 Name    : wallpaper64
 
 
-Id      : 7540
-Handles : 257
-CPU     : 0.015625
-SI      : 1
-Name    : webwallpaper32
-
-
-Id      : 8208
-Handles : 567
-CPU     : 9.234375
-SI      : 1
-Name    : webwallpaper32
-
-
-Id      : 11520
-Handles : 294
-CPU     : 0.046875
-SI      : 1
-Name    : webwallpaper32
-
-
-Id      : 20328
-Handles : 699
-CPU     : 102.296875
-SI      : 1
-Name    : webwallpaper32
-
-
-Id      : 21564
-Handles : 385
-CPU     : 19.90625
-SI      : 1
-Name    : webwallpaper32
-
-
 Id      : 5556
-Handles : 727
-CPU     : 1.234375
+Handles : 725
+CPU     : 1.359375
 SI      : 1
 Name    : Widgets
 
@@ -3541,7 +10604,7 @@ Name    : winlogon
 
 Id      : 3212
 Handles : 649
-CPU     : 10.78125
+CPU     : 10.828125
 SI      : 1
 Name    : WinNTSetup_x64
 
@@ -3561,7 +10624,7 @@ Name    : WmiPrvSE
 
 
 Id      : 4176
-Handles : 431
+Handles : 434
 CPU     :
 SI      : 0
 Name    : WmiPrvSE
@@ -3583,5 +10646,5 @@ Name    : WUDFHost
 Writing some text to the log file
 **********************
 Windows PowerShell transcript end
-End time: 20220217121401
+End time: 20220217123402
 **********************
