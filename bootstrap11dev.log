@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20220217123605
+Start time: 20220217123618
 Username: ZENBOX\chris
 RunAs User: ZENBOX\chris
 Configuration Name: 
 Machine: ZENBOX (Microsoft Windows NT 10.0.22000.0)
 Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe .\bootstrap11dev.ps1
-Process ID: 48892
+Process ID: 36788
 PSVersion: 5.1.22000.282
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22000.282
@@ -24,7 +24,7 @@ Transcript started, output file is C:\Users\chris\Desktop\inception\inception\bo
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
--a----         2/17/2022  12:36 PM            612 bootstrap11dev.log
+-a----         2/17/2022  12:36 PM              0 bootstrap11dev.log
 -a----         2/17/2022  12:35 PM            511 bootstrap11dev.ps1
 -a----         2/17/2022  11:57 AM             11 README.md
 
@@ -1504,7 +1504,7 @@ Name    : atkexComSvc
 
 Id      : 8836
 Handles : 908
-CPU     : 354.9375
+CPU     : 355.34375
 SI      : 0
 Name    : audiodg
 
@@ -1531,15 +1531,15 @@ Name    : cmd
 
 
 Id      : 19804
-Handles : 695
-CPU     : 44.25
+Handles : 678
+CPU     : 45.5
 SI      : 1
 Name    : Code
 
 
 Id      : 22760
 Handles : 714
-CPU     : 23.1875
+CPU     : 23.796875
 SI      : 1
 Name    : Code
 
@@ -1552,15 +1552,15 @@ Name    : Code
 
 
 Id      : 56776
-Handles : 280
+Handles : 277
 CPU     : 0.125
 SI      : 1
 Name    : Code
 
 
 Id      : 56944
-Handles : 982
-CPU     : 22.765625
+Handles : 1000
+CPU     : 22.984375
 SI      : 1
 Name    : Code
 
@@ -1581,7 +1581,7 @@ Name    : Code
 
 Id      : 123784
 Handles : 341
-CPU     : 6.78125
+CPU     : 6.984375
 SI      : 1
 Name    : Code
 
@@ -1664,8 +1664,8 @@ Name    : conhost
 
 
 Id      : 29476
-Handles : 314
-CPU     : 5.859375
+Handles : 250
+CPU     : 6.03125
 SI      : 1
 Name    : conhost
 
@@ -1727,7 +1727,7 @@ Name    : csrss
 
 
 Id      : 1072
-Handles : 1901
+Handles : 1647
 CPU     :
 SI      : 1
 Name    : csrss
@@ -1832,22 +1832,22 @@ Name    : Everything
 
 
 Id      : 8824
-Handles : 7690
-CPU     : 231.5
+Handles : 8229
+CPU     : 233.671875
 SI      : 1
 Name    : explorer
 
 
 Id      : 5768
 Handles : 514
-CPU     : 60.984375
+CPU     : 61.015625
 SI      : 1
 Name    : FanControl
 
 
 Id      : 5700
 Handles : 442
-CPU     : 0.375
+CPU     : 0.390625
 SI      : 1
 Name    : FileCoAuth
 
@@ -1889,7 +1889,7 @@ Name    : gamingservicesnet
 
 Id      : 13980
 Handles : 630
-CPU     : 512.828125
+CPU     : 513.0625
 SI      : 1
 Name    : HWiNFO64
 
@@ -1902,14 +1902,14 @@ Name    : Idle
 
 
 Id      : 1156
-Handles : 3780
+Handles : 3207
 CPU     :
 SI      : 0
 Name    : lsass
 
 
 Id      : 131976
-Handles : 367
+Handles : 370
 CPU     : 0.546875
 SI      : 1
 Name    : MicrosoftSqlToolsServiceLayer
@@ -2001,7 +2001,7 @@ Name    : msedge
 
 Id      : 11940
 Handles : 262
-CPU     : 9.96875
+CPU     : 9.984375
 SI      : 1
 Name    : msedge
 
@@ -2141,7 +2141,7 @@ Name    : msedgewebview2
 
 Id      : 19116
 Handles : 1202
-CPU     : 12.640625
+CPU     : 12.65625
 SI      : 1
 Name    : msedgewebview2
 
@@ -2211,7 +2211,7 @@ Name    : nvcontainer
 
 Id      : 8172
 Handles : 542
-CPU     : 15.171875
+CPU     : 15.203125
 SI      : 1
 Name    : nvcontainer
 
@@ -2245,7 +2245,7 @@ Name    : NVIDIA Share
 
 
 Id      : 14856
-Handles : 344
+Handles : 341
 CPU     : 0.609375
 SI      : 1
 Name    : NVIDIA Share
@@ -2273,7 +2273,7 @@ Name    : OfficeClickToRun
 
 
 Id      : 13192
-Handles : 817
+Handles : 821
 CPU     : 29.8125
 SI      : 1
 Name    : OneDrive
@@ -2298,13 +2298,6 @@ Handles : 1000
 CPU     : 4.390625
 SI      : 1
 Name    : PAD.Console.Host
-
-
-Id      : 1260
-Handles : 1974
-CPU     : 1.5625
-SI      : 1
-Name    : powershell
 
 
 Id      : 1444
@@ -2349,13 +2342,6 @@ SI      : 1
 Name    : powershell
 
 
-Id      : 6676
-Handles : 2113
-CPU     : 1.421875
-SI      : 1
-Name    : powershell
-
-
 Id      : 9092
 Handles : 1030
 CPU     : 1.390625
@@ -2373,20 +2359,6 @@ Name    : powershell
 Id      : 17368
 Handles : 799
 CPU     : 1.421875
-SI      : 1
-Name    : powershell
-
-
-Id      : 17992
-Handles : 2171
-CPU     : 1.4375
-SI      : 1
-Name    : powershell
-
-
-Id      : 20020
-Handles : 2140
-CPU     : 1.40625
 SI      : 1
 Name    : powershell
 
@@ -2429,27 +2401,6 @@ Name    : powershell
 Id      : 21836
 Handles : 750
 CPU     : 1.46875
-SI      : 1
-Name    : powershell
-
-
-Id      : 21960
-Handles : 2329
-CPU     : 1.4375
-SI      : 1
-Name    : powershell
-
-
-Id      : 21988
-Handles : 2150
-CPU     : 1.390625
-SI      : 1
-Name    : powershell
-
-
-Id      : 21996
-Handles : 2132
-CPU     : 1.421875
 SI      : 1
 Name    : powershell
 
@@ -2769,13 +2720,6 @@ SI      : 1
 Name    : powershell
 
 
-Id      : 30012
-Handles : 2390
-CPU     : 1.421875
-SI      : 1
-Name    : powershell
-
-
 Id      : 30024
 Handles : 758
 CPU     : 1.34375
@@ -2912,13 +2856,6 @@ Name    : powershell
 Id      : 31680
 Handles : 846
 CPU     : 1.40625
-SI      : 1
-Name    : powershell
-
-
-Id      : 31940
-Handles : 2137
-CPU     : 1.34375
 SI      : 1
 Name    : powershell
 
@@ -3126,13 +3063,6 @@ SI      : 1
 Name    : powershell
 
 
-Id      : 36440
-Handles : 2236
-CPU     : 1.34375
-SI      : 1
-Name    : powershell
-
-
 Id      : 36584
 Handles : 1537
 CPU     : 1.359375
@@ -3148,8 +3078,8 @@ Name    : powershell
 
 
 Id      : 36788
-Handles : 1908
-CPU     : 1.4375
+Handles : 1880
+CPU     : 2.5625
 SI      : 1
 Name    : powershell
 
@@ -3210,13 +3140,6 @@ SI      : 1
 Name    : powershell
 
 
-Id      : 37920
-Handles : 2062
-CPU     : 1.421875
-SI      : 1
-Name    : powershell
-
-
 Id      : 37964
 Handles : 1651
 CPU     : 1.34375
@@ -3248,13 +3171,6 @@ Name    : powershell
 Id      : 38448
 Handles : 1847
 CPU     : 1.3125
-SI      : 1
-Name    : powershell
-
-
-Id      : 38512
-Handles : 2046
-CPU     : 1.40625
 SI      : 1
 Name    : powershell
 
@@ -3315,13 +3231,6 @@ SI      : 1
 Name    : powershell
 
 
-Id      : 39808
-Handles : 2153
-CPU     : 1.34375
-SI      : 1
-Name    : powershell
-
-
 Id      : 39856
 Handles : 1795
 CPU     : 1.40625
@@ -3336,13 +3245,6 @@ SI      : 1
 Name    : powershell
 
 
-Id      : 39940
-Handles : 2230
-CPU     : 1.390625
-SI      : 1
-Name    : powershell
-
-
 Id      : 40020
 Handles : 1798
 CPU     : 1.34375
@@ -3353,13 +3255,6 @@ Name    : powershell
 Id      : 40168
 Handles : 1808
 CPU     : 1.4375
-SI      : 1
-Name    : powershell
-
-
-Id      : 40288
-Handles : 2246
-CPU     : 1.40625
 SI      : 1
 Name    : powershell
 
@@ -3420,13 +3315,6 @@ SI      : 1
 Name    : powershell
 
 
-Id      : 41612
-Handles : 1966
-CPU     : 1.375
-SI      : 1
-Name    : powershell
-
-
 Id      : 41712
 Handles : 1886
 CPU     : 1.375
@@ -3434,345 +3322,9 @@ SI      : 1
 Name    : powershell
 
 
-Id      : 41852
-Handles : 1990
-CPU     : 1.34375
-SI      : 1
-Name    : powershell
-
-
 Id      : 41956
 Handles : 1902
 CPU     : 1.421875
-SI      : 1
-Name    : powershell
-
-
-Id      : 42212
-Handles : 1918
-CPU     : 1.34375
-SI      : 1
-Name    : powershell
-
-
-Id      : 42384
-Handles : 1982
-CPU     : 1.3125
-SI      : 1
-Name    : powershell
-
-
-Id      : 42540
-Handles : 1955
-CPU     : 1.453125
-SI      : 1
-Name    : powershell
-
-
-Id      : 42572
-Handles : 1921
-CPU     : 1.40625
-SI      : 1
-Name    : powershell
-
-
-Id      : 42724
-Handles : 1934
-CPU     : 1.375
-SI      : 1
-Name    : powershell
-
-
-Id      : 42836
-Handles : 1968
-CPU     : 1.4375
-SI      : 1
-Name    : powershell
-
-
-Id      : 42872
-Handles : 1942
-CPU     : 1.46875
-SI      : 1
-Name    : powershell
-
-
-Id      : 43028
-Handles : 2008
-CPU     : 1.453125
-SI      : 1
-Name    : powershell
-
-
-Id      : 43184
-Handles : 2038
-CPU     : 1.359375
-SI      : 1
-Name    : powershell
-
-
-Id      : 43320
-Handles : 2007
-CPU     : 1.359375
-SI      : 1
-Name    : powershell
-
-
-Id      : 43524
-Handles : 2014
-CPU     : 1.40625
-SI      : 1
-Name    : powershell
-
-
-Id      : 43672
-Handles : 2022
-CPU     : 1.34375
-SI      : 1
-Name    : powershell
-
-
-Id      : 43892
-Handles : 2049
-CPU     : 1.375
-SI      : 1
-Name    : powershell
-
-
-Id      : 43928
-Handles : 2065
-CPU     : 1.390625
-SI      : 1
-Name    : powershell
-
-
-Id      : 43960
-Handles : 2030
-CPU     : 1.390625
-SI      : 1
-Name    : powershell
-
-
-Id      : 44140
-Handles : 2068
-CPU     : 1.4375
-SI      : 1
-Name    : powershell
-
-
-Id      : 44292
-Handles : 2092
-CPU     : 1.40625
-SI      : 1
-Name    : powershell
-
-
-Id      : 44436
-Handles : 2095
-CPU     : 1.421875
-SI      : 1
-Name    : powershell
-
-
-Id      : 44576
-Handles : 2098
-CPU     : 1.4375
-SI      : 1
-Name    : powershell
-
-
-Id      : 44728
-Handles : 2111
-CPU     : 1.515625
-SI      : 1
-Name    : powershell
-
-
-Id      : 45204
-Handles : 2206
-CPU     : 1.359375
-SI      : 1
-Name    : powershell
-
-
-Id      : 45320
-Handles : 2174
-CPU     : 1.4375
-SI      : 1
-Name    : powershell
-
-
-Id      : 45432
-Handles : 2215
-CPU     : 1.421875
-SI      : 1
-Name    : powershell
-
-
-Id      : 45624
-Handles : 2223
-CPU     : 1.5
-SI      : 1
-Name    : powershell
-
-
-Id      : 45692
-Handles : 2187
-CPU     : 1.421875
-SI      : 1
-Name    : powershell
-
-
-Id      : 45844
-Handles : 2195
-CPU     : 1.5
-SI      : 1
-Name    : powershell
-
-
-Id      : 46004
-Handles : 2371
-CPU     : 1.390625
-SI      : 1
-Name    : powershell
-
-
-Id      : 46060
-Handles : 2198
-CPU     : 1.53125
-SI      : 1
-Name    : powershell
-
-
-Id      : 46188
-Handles : 2356
-CPU     : 1.359375
-SI      : 1
-Name    : powershell
-
-
-Id      : 46264
-Handles : 2249
-CPU     : 1.34375
-SI      : 1
-Name    : powershell
-
-
-Id      : 46412
-Handles : 2267
-CPU     : 1.40625
-SI      : 1
-Name    : powershell
-
-
-Id      : 46564
-Handles : 2270
-CPU     : 1.453125
-SI      : 1
-Name    : powershell
-
-
-Id      : 46708
-Handles : 2273
-CPU     : 1.40625
-SI      : 1
-Name    : powershell
-
-
-Id      : 46860
-Handles : 2286
-CPU     : 1.390625
-SI      : 1
-Name    : powershell
-
-
-Id      : 47004
-Handles : 2296
-CPU     : 1.359375
-SI      : 1
-Name    : powershell
-
-
-Id      : 47080
-Handles : 2374
-CPU     : 1.484375
-SI      : 1
-Name    : powershell
-
-
-Id      : 47168
-Handles : 2347
-CPU     : 1.359375
-SI      : 1
-Name    : powershell
-
-
-Id      : 47284
-Handles : 2297
-CPU     : 1.375
-SI      : 1
-Name    : powershell
-
-
-Id      : 47488
-Handles : 2382
-CPU     : 1.40625
-SI      : 1
-Name    : powershell
-
-
-Id      : 47536
-Handles : 2353
-CPU     : 1.390625
-SI      : 1
-Name    : powershell
-
-
-Id      : 47552
-Handles : 2408
-CPU     : 1.421875
-SI      : 1
-Name    : powershell
-
-
-Id      : 47720
-Handles : 2311
-CPU     : 1.375
-SI      : 1
-Name    : powershell
-
-
-Id      : 47936
-Handles : 2323
-CPU     : 1.296875
-SI      : 1
-Name    : powershell
-
-
-Id      : 48080
-Handles : 2321
-CPU     : 1.4375
-SI      : 1
-Name    : powershell
-
-
-Id      : 48456
-Handles : 2406
-CPU     : 1.40625
-SI      : 1
-Name    : powershell
-
-
-Id      : 48748
-Handles : 2420
-CPU     : 1.375
-SI      : 1
-Name    : powershell
-
-
-Id      : 48892
-Handles : 2384
-CPU     : 2.75
 SI      : 1
 Name    : powershell
 
@@ -3792,7 +3344,7 @@ Name    : powershell
 
 
 Id      : 132944
-Handles : 1419
+Handles : 1055
 CPU     : 6.171875
 SI      : 1
 Name    : powershell
@@ -3814,13 +3366,13 @@ Name    : PowerToys
 
 Id      : 14028
 Handles : 204
-CPU     : 35.609375
+CPU     : 35.65625
 SI      : 1
 Name    : PowerToys.AlwaysOnTop
 
 
 Id      : 14020
-Handles : 539
+Handles : 538
 CPU     : 0.453125
 SI      : 1
 Name    : PowerToys.Awake
@@ -3828,7 +3380,7 @@ Name    : PowerToys.Awake
 
 Id      : 13412
 Handles : 370
-CPU     : 32.734375
+CPU     : 32.765625
 SI      : 1
 Name    : PowerToys.FancyZones
 
@@ -3856,7 +3408,7 @@ Name    : pwsh
 
 Id      : 12124
 Handles : 433
-CPU     : 0.046875
+CPU     : 0.0625
 SI      : 1
 Name    : ReflectUI
 
@@ -3869,7 +3421,7 @@ Name    : Registry
 
 
 Id      : 12928
-Handles : 1488
+Handles : 1452
 CPU     : 16.625
 SI      : 1
 Name    : Ring
@@ -3911,7 +3463,7 @@ Name    : RuntimeBroker
 
 
 Id      : 10920
-Handles : 796
+Handles : 799
 CPU     : 2.03125
 SI      : 1
 Name    : RuntimeBroker
@@ -3967,7 +3519,7 @@ Name    : SecurityHealthService
 
 
 Id      : 1136
-Handles : 1092
+Handles : 1027
 CPU     :
 SI      : 0
 Name    : services
@@ -3989,7 +3541,7 @@ Name    : ShellExperienceHost
 
 Id      : 16232
 Handles : 2499
-CPU     : 1323.703125
+CPU     : 1325.015625
 SI      : 1
 Name    : SignalRgb
 
@@ -4045,7 +3597,7 @@ Name    : StartMenuExperienceHost
 
 Id      : 15504
 Handles : 1065
-CPU     : 98.796875
+CPU     : 98.90625
 SI      : 1
 Name    : steam
 
@@ -4107,7 +3659,7 @@ Name    : steamwebhelper
 
 
 Id      : 944
-Handles : 371
+Handles : 307
 CPU     :
 SI      : 0
 Name    : svchost
@@ -4128,21 +3680,21 @@ Name    : svchost
 
 
 Id      : 1376
-Handles : 2341
+Handles : 2087
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 1416
-Handles : 354
+Handles : 353
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 1524
-Handles : 858
+Handles : 857
 CPU     :
 SI      : 0
 Name    : svchost
@@ -4219,21 +3771,21 @@ Name    : svchost
 
 
 Id      : 2132
-Handles : 224
+Handles : 225
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 2308
-Handles : 541
+Handles : 477
 CPU     :
 SI      : 0
 Name    : svchost
 
 
 Id      : 2332
-Handles : 641
+Handles : 577
 CPU     :
 SI      : 0
 Name    : svchost
@@ -4247,7 +3799,7 @@ Name    : svchost
 
 
 Id      : 2384
-Handles : 435
+Handles : 437
 CPU     :
 SI      : 0
 Name    : svchost
@@ -4261,7 +3813,7 @@ Name    : svchost
 
 
 Id      : 2612
-Handles : 404
+Handles : 340
 CPU     :
 SI      : 0
 Name    : svchost
@@ -4282,7 +3834,7 @@ Name    : svchost
 
 
 Id      : 2788
-Handles : 757
+Handles : 629
 CPU     :
 SI      : 0
 Name    : svchost
@@ -4338,7 +3890,7 @@ Name    : svchost
 
 
 Id      : 3464
-Handles : 245
+Handles : 243
 CPU     :
 SI      : 0
 Name    : svchost
@@ -4408,7 +3960,7 @@ Name    : svchost
 
 
 Id      : 4912
-Handles : 514
+Handles : 516
 CPU     :
 SI      : 0
 Name    : svchost
@@ -4457,7 +4009,7 @@ Name    : svchost
 
 
 Id      : 5396
-Handles : 303
+Handles : 300
 CPU     :
 SI      : 0
 Name    : svchost
@@ -4562,7 +4114,7 @@ Name    : svchost
 
 
 Id      : 8280
-Handles : 252
+Handles : 251
 CPU     :
 SI      : 0
 Name    : svchost
@@ -4632,7 +4184,7 @@ Name    : svchost
 
 
 Id      : 12984
-Handles : 249
+Handles : 251
 CPU     :
 SI      : 0
 Name    : svchost
@@ -4660,7 +4212,7 @@ Name    : svchost
 
 
 Id      : 4
-Handles : 9844
+Handles : 8963
 CPU     :
 SI      : 0
 Name    : System
@@ -4688,8 +4240,8 @@ Name    : SystemSettingsAdminFlows
 
 
 Id      : 8916
-Handles : 305
-CPU     : 1.078125
+Handles : 309
+CPU     : 1.09375
 SI      : 1
 Name    : taskhostw
 
@@ -4710,7 +4262,7 @@ Name    : TbtP2pShortcutService
 
 Id      : 15044
 Handles : 1466
-CPU     : 3.09375
+CPU     : 3.109375
 SI      : 1
 Name    : TextInputHost
 
@@ -4731,7 +4283,7 @@ Name    : TiWorker
 
 Id      : 17392
 Handles : 533
-CPU     : 58.015625
+CPU     : 58.03125
 SI      : 1
 Name    : TranslucentTB
 
@@ -4759,13 +4311,13 @@ Name    : vds
 
 Id      : 16060
 Handles : 625
-CPU     : 23.03125
+CPU     : 23.046875
 SI      : 1
 Name    : wallpaper64
 
 
 Id      : 5556
-Handles : 757
+Handles : 755
 CPU     : 1.4375
 SI      : 1
 Name    : Widgets
@@ -4836,5 +4388,5 @@ Name    : WUDFHost
 Writing some text to the log file
 **********************
 Windows PowerShell transcript end
-End time: 20220217123608
+End time: 20220217123620
 **********************
